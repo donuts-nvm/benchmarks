@@ -285,7 +285,7 @@ configure:10736: checking how to hardcode library paths into programs
 configure:10761: result: unsupported
 configure:10884: checking for shl_load
 configure:10940: gcc -o conftest -O3 -funroll-loops -fprefetch-loop-arrays -static-libgcc -Wl,--hash-style=both,--as-needed -DPARSEC_VERSION=2.1 -DENABLE_PARSEC_HOOKS -I/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/libs/hooks/inst/amd64-linux.gcc-sniper/include -I/home/kleber.kruger/sniper-benchmarks/tools/hooks -I/home/kleber.kruger/snipersim/sniper/include -DENABLE_PARMACS  -L/usr/lib64 -L/usr/lib -L/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/libs/hooks/inst/amd64-linux.gcc-sniper/lib -uparmacs_roi_end -uparmacs_roi_start -L/home/kleber.kruger/sniper-benchmarks/tools/hooks -lhooks_base -lrt -pthread conftest.c  >&5
-/usr/bin/ld: /tmp/ccvzzAjr.o: in function `main':
+/usr/bin/ld: /tmp/ccDkVBs4.o: in function `main':
 conftest.c:(.text.startup+0xb): undefined reference to `shl_load'
 collect2: error: ld returned 1 exit status
 configure:10947: $? = 1
@@ -395,7 +395,7 @@ configure: failed program was:
 configure:11035: result: no
 configure:11040: checking for dlopen
 configure:11096: gcc -o conftest -O3 -funroll-loops -fprefetch-loop-arrays -static-libgcc -Wl,--hash-style=both,--as-needed -DPARSEC_VERSION=2.1 -DENABLE_PARSEC_HOOKS -I/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/libs/hooks/inst/amd64-linux.gcc-sniper/include -I/home/kleber.kruger/sniper-benchmarks/tools/hooks -I/home/kleber.kruger/snipersim/sniper/include -DENABLE_PARMACS  -L/usr/lib64 -L/usr/lib -L/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/libs/hooks/inst/amd64-linux.gcc-sniper/lib -uparmacs_roi_end -uparmacs_roi_start -L/home/kleber.kruger/sniper-benchmarks/tools/hooks -lhooks_base -lrt -pthread conftest.c  >&5
-/usr/bin/ld: /tmp/cc4ry578.o: in function `main':
+/usr/bin/ld: /tmp/cczdZUmP.o: in function `main':
 conftest.c:(.text.startup+0xb): undefined reference to `dlopen'
 collect2: error: ld returned 1 exit status
 configure:11103: $? = 1
@@ -484,7 +484,7 @@ configure:8592: checking for the default library search path
 configure:8599: result: /lib /usr/lib /usr/lib/x86_64-linux-gnu/libfakeroot /usr/local/lib/i386-linux-gnu /lib/i386-linux-gnu /usr/lib/i386-linux-gnu /usr/local/lib/i686-linux-gnu /lib/i686-linux-gnu /usr/lib/i686-linux-gnu /usr/local/lib /usr/local/lib/x86_64-linux-gnu /lib/x86_64-linux-gnu /usr/lib/x86_64-linux-gnu 
 configure:8629: checking for library containing dlopen
 configure:8670: gcc -o conftest -O3 -funroll-loops -fprefetch-loop-arrays -static-libgcc -Wl,--hash-style=both,--as-needed -DPARSEC_VERSION=2.1 -DENABLE_PARSEC_HOOKS -I/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/libs/hooks/inst/amd64-linux.gcc-sniper/include -I/home/kleber.kruger/sniper-benchmarks/tools/hooks -I/home/kleber.kruger/snipersim/sniper/include -DENABLE_PARMACS  -L/usr/lib64 -L/usr/lib -L/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/libs/hooks/inst/amd64-linux.gcc-sniper/lib -uparmacs_roi_end -uparmacs_roi_start -L/home/kleber.kruger/sniper-benchmarks/tools/hooks -lhooks_base -lrt -pthread conftest.c  >&5
-/usr/bin/ld: /tmp/ccuyL568.o: in function `main':
+/usr/bin/ld: /tmp/cc7huvMG.o: in function `main':
 conftest.c:(.text.startup+0xb): undefined reference to `dlopen'
 collect2: error: ld returned 1 exit status
 configure:8677: $? = 1
@@ -1034,7 +1034,7 @@ configure:10233: $? = 0
 configure:10255: result: yes
 configure:10278: checking for strlcat
 configure:10334: gcc -o conftest -O3 -funroll-loops -fprefetch-loop-arrays -static-libgcc -Wl,--hash-style=both,--as-needed -DPARSEC_VERSION=2.1 -DENABLE_PARSEC_HOOKS -I/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/libs/hooks/inst/amd64-linux.gcc-sniper/include -I/home/kleber.kruger/sniper-benchmarks/tools/hooks -I/home/kleber.kruger/snipersim/sniper/include -DENABLE_PARMACS  -L/usr/lib64 -L/usr/lib -L/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/libs/hooks/inst/amd64-linux.gcc-sniper/lib -uparmacs_roi_end -uparmacs_roi_start -L/home/kleber.kruger/sniper-benchmarks/tools/hooks -lhooks_base -lrt -pthread conftest.c -ldl  >&5
-/usr/bin/ld: /tmp/ccOoCh5R.o: in function `main':
+/usr/bin/ld: /tmp/ccHg7H1u.o: in function `main':
 conftest.c:(.text.startup+0xb): undefined reference to `strlcat'
 collect2: error: ld returned 1 exit status
 configure:10341: $? = 1
@@ -1123,7 +1123,7 @@ configure: failed program was:
 configure:10363: result: no
 configure:10278: checking for strlcpy
 configure:10334: gcc -o conftest -O3 -funroll-loops -fprefetch-loop-arrays -static-libgcc -Wl,--hash-style=both,--as-needed -DPARSEC_VERSION=2.1 -DENABLE_PARSEC_HOOKS -I/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/libs/hooks/inst/amd64-linux.gcc-sniper/include -I/home/kleber.kruger/sniper-benchmarks/tools/hooks -I/home/kleber.kruger/snipersim/sniper/include -DENABLE_PARMACS  -L/usr/lib64 -L/usr/lib -L/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/libs/hooks/inst/amd64-linux.gcc-sniper/lib -uparmacs_roi_end -uparmacs_roi_start -L/home/kleber.kruger/sniper-benchmarks/tools/hooks -lhooks_base -lrt -pthread conftest.c -ldl  >&5
-/usr/bin/ld: /tmp/ccEQGTsH.o: in function `main':
+/usr/bin/ld: /tmp/ccHnb3Ci.o: in function `main':
 conftest.c:(.text.startup+0xb): undefined reference to `strlcpy'
 collect2: error: ld returned 1 exit status
 configure:10341: $? = 1

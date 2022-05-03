@@ -75,8 +75,8 @@ configure:2916: $? = 0
 configure:2956: tardir=conftest.dir && eval tar --format=ustar -chf - "$tardir" >conftest.tar
 configure:2959: $? = 0
 configure:2963: tar -xf - <conftest.tar
-tar: conftest.dir/file: time stamp 2022-05-03 07:53:10 is 431.484987055 s in the future
-tar: conftest.dir: time stamp 2022-05-03 07:53:10 is 431.483783387 s in the future
+tar: conftest.dir/file: time stamp 2022-05-03 10:15:21 is 431.568129203 s in the future
+tar: conftest.dir: time stamp 2022-05-03 10:15:21 is 431.567352971 s in the future
 configure:2966: $? = 0
 configure:2979: result: gnutar
 configure:3117: checking for gcc
@@ -415,7 +415,7 @@ configure:8686: checking whether libtool supports -dlopen/-dlpreopen
 configure:8698: result: yes
 configure:8717: checking for shl_load
 configure:8773: gcc -o conftest -O3 -funroll-loops -fprefetch-loop-arrays -static-libgcc -Wl,--hash-style=both,--as-needed -DPARSEC_VERSION=2.1 -DENABLE_PARSEC_HOOKS -I/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/libs/hooks/inst/amd64-linux.gcc-sniper/include -I/home/kleber.kruger/sniper-benchmarks/tools/hooks -I/home/kleber.kruger/snipersim/sniper/include -DENABLE_PARMACS -O2 -Wall -W    -L/usr/lib64 -L/usr/lib -L/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/libs/hooks/inst/amd64-linux.gcc-sniper/lib -uparmacs_roi_end -uparmacs_roi_start -L/home/kleber.kruger/sniper-benchmarks/tools/hooks -lhooks_base -lrt -pthread  conftest.c  -lhooks >&5
-/usr/bin/ld: /tmp/ccLTY2Qo.o: in function `main':
+/usr/bin/ld: /tmp/ccU0LWcc.o: in function `main':
 conftest.c:(.text.startup+0xb): undefined reference to `shl_load'
 collect2: error: ld returned 1 exit status
 configure:8779: $? = 1
@@ -1494,7 +1494,7 @@ configure:15166: checking for shl_load in -ldld
 configure:15225: result: no
 configure:15230: checking for dlopen
 configure:15286: gcc -o conftest -O3 -funroll-loops -fprefetch-loop-arrays -static-libgcc -Wl,--hash-style=both,--as-needed -DPARSEC_VERSION=2.1 -DENABLE_PARSEC_HOOKS -I/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/libs/hooks/inst/amd64-linux.gcc-sniper/include -I/home/kleber.kruger/sniper-benchmarks/tools/hooks -I/home/kleber.kruger/snipersim/sniper/include -DENABLE_PARMACS -O2 -Wall -W    -L/usr/lib64 -L/usr/lib -L/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/libs/hooks/inst/amd64-linux.gcc-sniper/lib -uparmacs_roi_end -uparmacs_roi_start -L/home/kleber.kruger/sniper-benchmarks/tools/hooks -lhooks_base -lrt -pthread  conftest.c  -lhooks >&5
-/usr/bin/ld: /tmp/ccgwMmGk.o: in function `main':
+/usr/bin/ld: /tmp/cc5ASHrc.o: in function `main':
 conftest.c:(.text.startup+0xb): undefined reference to `dlopen'
 collect2: error: ld returned 1 exit status
 configure:15292: $? = 1
@@ -2640,7 +2640,7 @@ configure:28684: $? = 0
 configure:28702: result: yes
 configure:28709: checking for _doprnt
 configure:28765: gcc -o conftest -O3 -funroll-loops -fprefetch-loop-arrays -static-libgcc -Wl,--hash-style=both,--as-needed -DPARSEC_VERSION=2.1 -DENABLE_PARSEC_HOOKS -I/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/libs/hooks/inst/amd64-linux.gcc-sniper/include -I/home/kleber.kruger/sniper-benchmarks/tools/hooks -I/home/kleber.kruger/snipersim/sniper/include -DENABLE_PARMACS -O2 -Wall -W    -L/usr/lib64 -L/usr/lib -L/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/libs/hooks/inst/amd64-linux.gcc-sniper/lib -uparmacs_roi_end -uparmacs_roi_start -L/home/kleber.kruger/sniper-benchmarks/tools/hooks -lhooks_base -lrt -pthread  conftest.c  -lhooks >&5
-/usr/bin/ld: /tmp/ccYAAv8E.o: in function `main':
+/usr/bin/ld: /tmp/cciK9tGr.o: in function `main':
 conftest.c:(.text.startup+0xb): undefined reference to `_doprnt'
 collect2: error: ld returned 1 exit status
 configure:28771: $? = 1
@@ -2826,7 +2826,7 @@ conftest.c:140:6: warning: conflicting types for built-in function 'floor'; expe
 conftest.c:128:1: note: 'floor' is declared in header '<math.h>'
   127 | # include <limits.h>
   128 | #else
-/usr/bin/ld: /tmp/ccLnIegq.o: in function `main':
+/usr/bin/ld: /tmp/ccLX07Vc.o: in function `main':
 conftest.c:(.text.startup+0xb): undefined reference to `floor'
 collect2: error: ld returned 1 exit status
 configure:28924: $? = 1
@@ -3007,7 +3007,7 @@ configure:28924: $? = 0
 configure:28942: result: yes
 configure:28862: checking for getexecname
 configure:28918: gcc -o conftest -O3 -funroll-loops -fprefetch-loop-arrays -static-libgcc -Wl,--hash-style=both,--as-needed -DPARSEC_VERSION=2.1 -DENABLE_PARSEC_HOOKS -I/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/libs/hooks/inst/amd64-linux.gcc-sniper/include -I/home/kleber.kruger/sniper-benchmarks/tools/hooks -I/home/kleber.kruger/snipersim/sniper/include -DENABLE_PARMACS -O2 -Wall -W    -L/usr/lib64 -L/usr/lib -L/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/libs/hooks/inst/amd64-linux.gcc-sniper/lib -uparmacs_roi_end -uparmacs_roi_start -L/home/kleber.kruger/sniper-benchmarks/tools/hooks -lhooks_base -lrt -pthread  conftest.c  -lhooks >&5
-/usr/bin/ld: /tmp/ccK0vk0q.o: in function `main':
+/usr/bin/ld: /tmp/ccaF0qn5.o: in function `main':
 conftest.c:(.text.startup+0xb): undefined reference to `getexecname'
 collect2: error: ld returned 1 exit status
 configure:28924: $? = 1
@@ -3205,7 +3205,7 @@ configure:28924: $? = 0
 configure:28942: result: yes
 configure:28862: checking for _NSGetExecutablePath
 configure:28918: gcc -o conftest -O3 -funroll-loops -fprefetch-loop-arrays -static-libgcc -Wl,--hash-style=both,--as-needed -DPARSEC_VERSION=2.1 -DENABLE_PARSEC_HOOKS -I/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/libs/hooks/inst/amd64-linux.gcc-sniper/include -I/home/kleber.kruger/sniper-benchmarks/tools/hooks -I/home/kleber.kruger/snipersim/sniper/include -DENABLE_PARMACS -O2 -Wall -W    -L/usr/lib64 -L/usr/lib -L/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/libs/hooks/inst/amd64-linux.gcc-sniper/lib -uparmacs_roi_end -uparmacs_roi_start -L/home/kleber.kruger/sniper-benchmarks/tools/hooks -lhooks_base -lrt -pthread  conftest.c  -lhooks >&5
-/usr/bin/ld: /tmp/ccANhD3g.o: in function `main':
+/usr/bin/ld: /tmp/ccWvsl0T.o: in function `main':
 conftest.c:(.text.startup+0xb): undefined reference to `_NSGetExecutablePath'
 collect2: error: ld returned 1 exit status
 configure:28924: $? = 1
@@ -3382,7 +3382,7 @@ configure:28924: $? = 0
 configure:28942: result: yes
 configure:28862: checking for _pclose
 configure:28918: gcc -o conftest -O3 -funroll-loops -fprefetch-loop-arrays -static-libgcc -Wl,--hash-style=both,--as-needed -DPARSEC_VERSION=2.1 -DENABLE_PARSEC_HOOKS -I/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/libs/hooks/inst/amd64-linux.gcc-sniper/include -I/home/kleber.kruger/sniper-benchmarks/tools/hooks -I/home/kleber.kruger/snipersim/sniper/include -DENABLE_PARMACS -O2 -Wall -W    -L/usr/lib64 -L/usr/lib -L/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/libs/hooks/inst/amd64-linux.gcc-sniper/lib -uparmacs_roi_end -uparmacs_roi_start -L/home/kleber.kruger/sniper-benchmarks/tools/hooks -lhooks_base -lrt -pthread  conftest.c  -lhooks >&5
-/usr/bin/ld: /tmp/ccnUUX94.o: in function `main':
+/usr/bin/ld: /tmp/ccjn16MO.o: in function `main':
 conftest.c:(.text.startup+0xb): undefined reference to `_pclose'
 collect2: error: ld returned 1 exit status
 configure:28924: $? = 1
@@ -3564,7 +3564,7 @@ configure:28924: $? = 0
 configure:28942: result: yes
 configure:28862: checking for _popen
 configure:28918: gcc -o conftest -O3 -funroll-loops -fprefetch-loop-arrays -static-libgcc -Wl,--hash-style=both,--as-needed -DPARSEC_VERSION=2.1 -DENABLE_PARSEC_HOOKS -I/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/libs/hooks/inst/amd64-linux.gcc-sniper/include -I/home/kleber.kruger/sniper-benchmarks/tools/hooks -I/home/kleber.kruger/snipersim/sniper/include -DENABLE_PARMACS -O2 -Wall -W    -L/usr/lib64 -L/usr/lib -L/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/libs/hooks/inst/amd64-linux.gcc-sniper/lib -uparmacs_roi_end -uparmacs_roi_start -L/home/kleber.kruger/sniper-benchmarks/tools/hooks -lhooks_base -lrt -pthread  conftest.c  -lhooks >&5
-/usr/bin/ld: /tmp/cccGGS11.o: in function `main':
+/usr/bin/ld: /tmp/cc0zV2AE.o: in function `main':
 conftest.c:(.text.startup+0xb): undefined reference to `_popen'
 collect2: error: ld returned 1 exit status
 configure:28924: $? = 1
@@ -3746,7 +3746,7 @@ conftest.c:154:6: warning: conflicting types for built-in function 'pow'; expect
 conftest.c:142:1: note: 'pow' is declared in header '<math.h>'
   141 | # include <limits.h>
   142 | #else
-/usr/bin/ld: /tmp/ccl89pIL.o: in function `main':
+/usr/bin/ld: /tmp/ccwAwkFp.o: in function `main':
 conftest.c:(.text.startup+0xb): undefined reference to `pow'
 collect2: error: ld returned 1 exit status
 configure:28924: $? = 1
@@ -3956,7 +3956,7 @@ conftest.c:161:6: warning: conflicting types for built-in function 'sqrt'; expec
 conftest.c:149:1: note: 'sqrt' is declared in header '<math.h>'
   148 | # include <limits.h>
   149 | #else
-/usr/bin/ld: /tmp/cc4Jw6jM.o: in function `main':
+/usr/bin/ld: /tmp/ccPburSp.o: in function `main':
 conftest.c:(.text.startup+0xb): undefined reference to `sqrt'
 collect2: error: ld returned 1 exit status
 configure:28924: $? = 1
@@ -4218,7 +4218,7 @@ configure:28924: $? = 0
 configure:28942: result: yes
 configure:28862: checking for strlcat
 configure:28918: gcc -o conftest -O3 -funroll-loops -fprefetch-loop-arrays -static-libgcc -Wl,--hash-style=both,--as-needed -DPARSEC_VERSION=2.1 -DENABLE_PARSEC_HOOKS -I/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/libs/hooks/inst/amd64-linux.gcc-sniper/include -I/home/kleber.kruger/sniper-benchmarks/tools/hooks -I/home/kleber.kruger/snipersim/sniper/include -DENABLE_PARMACS -O2 -Wall -W    -L/usr/lib64 -L/usr/lib -L/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/libs/hooks/inst/amd64-linux.gcc-sniper/lib -uparmacs_roi_end -uparmacs_roi_start -L/home/kleber.kruger/sniper-benchmarks/tools/hooks -lhooks_base -lrt -pthread  conftest.c  -lhooks >&5
-/usr/bin/ld: /tmp/ccQPTR93.o: in function `main':
+/usr/bin/ld: /tmp/cc6z9iEP.o: in function `main':
 conftest.c:(.text.startup+0xb): undefined reference to `strlcat'
 collect2: error: ld returned 1 exit status
 configure:28924: $? = 1
@@ -4414,7 +4414,7 @@ configure: failed program was:
 configure:28942: result: no
 configure:28862: checking for strlcpy
 configure:28918: gcc -o conftest -O3 -funroll-loops -fprefetch-loop-arrays -static-libgcc -Wl,--hash-style=both,--as-needed -DPARSEC_VERSION=2.1 -DENABLE_PARSEC_HOOKS -I/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/libs/hooks/inst/amd64-linux.gcc-sniper/include -I/home/kleber.kruger/sniper-benchmarks/tools/hooks -I/home/kleber.kruger/snipersim/sniper/include -DENABLE_PARMACS -O2 -Wall -W    -L/usr/lib64 -L/usr/lib -L/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/libs/hooks/inst/amd64-linux.gcc-sniper/lib -uparmacs_roi_end -uparmacs_roi_start -L/home/kleber.kruger/sniper-benchmarks/tools/hooks -lhooks_base -lrt -pthread  conftest.c  -lhooks >&5
-/usr/bin/ld: /tmp/ccw2vfsP.o: in function `main':
+/usr/bin/ld: /tmp/ccjUsRGy.o: in function `main':
 conftest.c:(.text.startup+0xb): undefined reference to `strlcpy'
 collect2: error: ld returned 1 exit status
 configure:28924: $? = 1
@@ -4628,7 +4628,7 @@ configure:28924: $? = 0
 configure:28942: result: yes
 configure:28862: checking for tempnam
 configure:28918: gcc -o conftest -O3 -funroll-loops -fprefetch-loop-arrays -static-libgcc -Wl,--hash-style=both,--as-needed -DPARSEC_VERSION=2.1 -DENABLE_PARSEC_HOOKS -I/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/libs/hooks/inst/amd64-linux.gcc-sniper/include -I/home/kleber.kruger/sniper-benchmarks/tools/hooks -I/home/kleber.kruger/snipersim/sniper/include -DENABLE_PARMACS -O2 -Wall -W    -L/usr/lib64 -L/usr/lib -L/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/libs/hooks/inst/amd64-linux.gcc-sniper/lib -uparmacs_roi_end -uparmacs_roi_start -L/home/kleber.kruger/sniper-benchmarks/tools/hooks -lhooks_base -lrt -pthread  conftest.c  -lhooks >&5
-/usr/bin/ld: /tmp/ccMKYznG.o: in function `main':
+/usr/bin/ld: /tmp/ccnuHPdp.o: in function `main':
 conftest.c:(.text.startup+0xb): warning: the use of `tempnam' is dangerous, better use `mkstemp'
 configure:28924: $? = 0
 configure:28942: result: yes

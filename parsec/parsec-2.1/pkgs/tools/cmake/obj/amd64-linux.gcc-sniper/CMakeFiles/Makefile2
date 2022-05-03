@@ -1703,8 +1703,8 @@ clean: Source/CMakeFiles/CPackLib.dir/clean
 
 # All Build rule for target.
 Source/CMakeFiles/CTestLib.dir/all: Utilities/cmcurl/CMakeFiles/cmcurl.dir/all
-Source/CMakeFiles/CTestLib.dir/all: Utilities/cmxmlrpc/CMakeFiles/cmXMLRPC.dir/all
 Source/CMakeFiles/CTestLib.dir/all: Source/CMakeFiles/CMakeLib.dir/all
+Source/CMakeFiles/CTestLib.dir/all: Utilities/cmxmlrpc/CMakeFiles/cmXMLRPC.dir/all
 	$(MAKE) -f Source/CMakeFiles/CTestLib.dir/build.make Source/CMakeFiles/CTestLib.dir/depend
 	$(MAKE) -f Source/CMakeFiles/CTestLib.dir/build.make Source/CMakeFiles/CTestLib.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/tools/cmake/obj/amd64-linux.gcc-sniper/CMakeFiles  89 90 91 92 93 94 95 96 97
@@ -1929,9 +1929,9 @@ Utilities/preinstall: Utilities/KWStyle/preinstall
 # Target rules for target Utilities/CMakeFiles/documentation.dir
 
 # All Build rule for target.
+Utilities/CMakeFiles/documentation.dir/all: Source/CMakeFiles/cmake.dir/all
 Utilities/CMakeFiles/documentation.dir/all: Source/CMakeFiles/ctest.dir/all
 Utilities/CMakeFiles/documentation.dir/all: Source/CMakeFiles/cpack.dir/all
-Utilities/CMakeFiles/documentation.dir/all: Source/CMakeFiles/cmake.dir/all
 	$(MAKE) -f Utilities/CMakeFiles/documentation.dir/build.make Utilities/CMakeFiles/documentation.dir/depend
 	$(MAKE) -f Utilities/CMakeFiles/documentation.dir/build.make Utilities/CMakeFiles/documentation.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/tools/cmake/obj/amd64-linux.gcc-sniper/CMakeFiles  99 100

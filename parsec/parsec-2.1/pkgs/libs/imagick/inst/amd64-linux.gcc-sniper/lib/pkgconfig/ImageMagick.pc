@@ -1,0 +1,10 @@
+prefix=/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/./pkgs/libs/imagick/inst/amd64-linux.gcc-sniper
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: ImageMagick
+Description: ImageMagick - Convert, Edit, and Compose Images
+Version: 6.3.6
+Libs: -L${libdir} -lWand -lMagick
+Cflags: -I${includedir} 

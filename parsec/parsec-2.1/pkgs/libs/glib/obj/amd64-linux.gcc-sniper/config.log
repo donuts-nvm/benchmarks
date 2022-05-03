@@ -167,7 +167,7 @@ g++: fatal error: no input files
 compilation terminated.
 configure:4525: $? = 1
 configure:4528: checking whether we are using the GNU C++ compiler
-configure:4557: g++ -c -O3 -funroll-loops -fprefetch-loop-arrays -fpermissive -fno-exceptions -static-libgcc -Wl,--hash-style=both,--as-needed -DPARSEC_VERSION=2.1 -DENABLE_PARSEC_HOOKS -I/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/libs/hooks/inst/amd64-linux.gcc-sniper/include -I/home/kleber.kruger/sniper-benchmarks/tools/hooks -I/home/kleber.kruger/snipersim/sniper/include  conftest.cpp >&5
+configure:4557: g++ -c -std=gnu++17 -std=gnu++17 -O3 -funroll-loops -fprefetch-loop-arrays -fpermissive -fno-exceptions -static-libgcc -Wl,--hash-style=both,--as-needed -DPARSEC_VERSION=2.1 -DENABLE_PARSEC_HOOKS -I/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/libs/hooks/inst/amd64-linux.gcc-sniper/include -I/home/kleber.kruger/sniper-benchmarks/tools/hooks -I/home/kleber.kruger/snipersim/sniper/include -I/home/kleber.kruger/sniper-benchmarks/tools/hooks -I/home/kleber.kruger/snipersim/sniper/include -I/home/kleber.kruger/sniper-benchmarks/tools/hooks -I/home/kleber.kruger/snipersim/sniper/include  conftest.cpp >&5
 configure:4563: $? = 0
 configure:4570: test -z "$ac_cxx_werror_flag" || test ! -s conftest.err
 configure:4573: $? = 0
@@ -184,7 +184,7 @@ configure:4658: $? = 0
 configure:4788: result: yes
 configure:4813: checking dependency style of g++
 configure:4896: result: gcc3
-configure:4935: g++ -c -O3 -funroll-loops -fprefetch-loop-arrays -fpermissive -fno-exceptions -static-libgcc -Wl,--hash-style=both,--as-needed -DPARSEC_VERSION=2.1 -DENABLE_PARSEC_HOOKS -I/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/libs/hooks/inst/amd64-linux.gcc-sniper/include -I/home/kleber.kruger/sniper-benchmarks/tools/hooks -I/home/kleber.kruger/snipersim/sniper/include  conftest.cpp >&5
+configure:4935: g++ -c -std=gnu++17 -std=gnu++17 -O3 -funroll-loops -fprefetch-loop-arrays -fpermissive -fno-exceptions -static-libgcc -Wl,--hash-style=both,--as-needed -DPARSEC_VERSION=2.1 -DENABLE_PARSEC_HOOKS -I/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/libs/hooks/inst/amd64-linux.gcc-sniper/include -I/home/kleber.kruger/sniper-benchmarks/tools/hooks -I/home/kleber.kruger/snipersim/sniper/include -I/home/kleber.kruger/sniper-benchmarks/tools/hooks -I/home/kleber.kruger/snipersim/sniper/include -I/home/kleber.kruger/sniper-benchmarks/tools/hooks -I/home/kleber.kruger/snipersim/sniper/include  conftest.cpp >&5
 configure:4941: $? = 0
 configure:4948: test -z "$ac_cxx_werror_flag" || test ! -s conftest.err
 configure:4951: $? = 0
@@ -667,24 +667,24 @@ configure:15626: checking if the linker (g++ -m elf_x86_64) is GNU ld
 configure:15641: result: no
 configure:15692: checking whether the g++ linker (g++ -m elf_x86_64) supports shared libraries
 configure:16658: result: yes
-configure:16676: g++ -c -O3 -funroll-loops -fprefetch-loop-arrays -fpermissive -fno-exceptions -static-libgcc -Wl,--hash-style=both,--as-needed -DPARSEC_VERSION=2.1 -DENABLE_PARSEC_HOOKS -I/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/libs/hooks/inst/amd64-linux.gcc-sniper/include -I/home/kleber.kruger/sniper-benchmarks/tools/hooks -I/home/kleber.kruger/snipersim/sniper/include  conftest.cpp >&5
+configure:16676: g++ -c -std=gnu++17 -std=gnu++17 -O3 -funroll-loops -fprefetch-loop-arrays -fpermissive -fno-exceptions -static-libgcc -Wl,--hash-style=both,--as-needed -DPARSEC_VERSION=2.1 -DENABLE_PARSEC_HOOKS -I/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/libs/hooks/inst/amd64-linux.gcc-sniper/include -I/home/kleber.kruger/sniper-benchmarks/tools/hooks -I/home/kleber.kruger/snipersim/sniper/include -I/home/kleber.kruger/sniper-benchmarks/tools/hooks -I/home/kleber.kruger/snipersim/sniper/include -I/home/kleber.kruger/sniper-benchmarks/tools/hooks -I/home/kleber.kruger/snipersim/sniper/include  conftest.cpp >&5
 configure:16679: $? = 0
 configure:16798: checking for g++ option to produce PIC
 configure:17072: result: -fPIC
 configure:17080: checking if g++ PIC flag -fPIC works
-configure:17181: g++ -c -O3 -funroll-loops -fprefetch-loop-arrays -fpermissive -fno-exceptions -static-libgcc -Wl,--hash-style=both,--as-needed -DPARSEC_VERSION=2.1 -DENABLE_PARSEC_HOOKS -I/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/libs/hooks/inst/amd64-linux.gcc-sniper/include -I/home/kleber.kruger/sniper-benchmarks/tools/hooks -I/home/kleber.kruger/snipersim/sniper/include  -fPIC -DPIC conftest.cpp >&5
+configure:17181: g++ -c -std=gnu++17 -std=gnu++17 -O3 -funroll-loops -fprefetch-loop-arrays -fpermissive -fno-exceptions -static-libgcc -Wl,--hash-style=both,--as-needed -DPARSEC_VERSION=2.1 -DENABLE_PARSEC_HOOKS -I/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/libs/hooks/inst/amd64-linux.gcc-sniper/include -I/home/kleber.kruger/sniper-benchmarks/tools/hooks -I/home/kleber.kruger/snipersim/sniper/include -I/home/kleber.kruger/sniper-benchmarks/tools/hooks -I/home/kleber.kruger/snipersim/sniper/include -I/home/kleber.kruger/sniper-benchmarks/tools/hooks -I/home/kleber.kruger/snipersim/sniper/include  -fPIC -DPIC conftest.cpp >&5
 configure:17185: $? = 0
 configure:17115: result: yes
 configure:17143: checking if g++ static flag -static works
 configure:17171: result: yes
 configure:17181: checking if g++ supports -c -o file.o
-configure:17285: g++ -c -O3 -funroll-loops -fprefetch-loop-arrays -fpermissive -fno-exceptions -static-libgcc -Wl,--hash-style=both,--as-needed -DPARSEC_VERSION=2.1 -DENABLE_PARSEC_HOOKS -I/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/libs/hooks/inst/amd64-linux.gcc-sniper/include -I/home/kleber.kruger/sniper-benchmarks/tools/hooks -I/home/kleber.kruger/snipersim/sniper/include  -o out/conftest2.o conftest.cpp >&5
+configure:17285: g++ -c -std=gnu++17 -std=gnu++17 -O3 -funroll-loops -fprefetch-loop-arrays -fpermissive -fno-exceptions -static-libgcc -Wl,--hash-style=both,--as-needed -DPARSEC_VERSION=2.1 -DENABLE_PARSEC_HOOKS -I/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/libs/hooks/inst/amd64-linux.gcc-sniper/include -I/home/kleber.kruger/sniper-benchmarks/tools/hooks -I/home/kleber.kruger/snipersim/sniper/include -I/home/kleber.kruger/sniper-benchmarks/tools/hooks -I/home/kleber.kruger/snipersim/sniper/include -I/home/kleber.kruger/sniper-benchmarks/tools/hooks -I/home/kleber.kruger/snipersim/sniper/include  -o out/conftest2.o conftest.cpp >&5
 configure:17289: $? = 0
 configure:17228: result: yes
 configure:17254: checking whether the g++ linker (g++ -m elf_x86_64) supports shared libraries
 configure:17279: result: yes
 configure:17346: checking dynamic linker characteristics
-configure:17739: g++ -c -O3 -funroll-loops -fprefetch-loop-arrays -fpermissive -fno-exceptions -static-libgcc -Wl,--hash-style=both,--as-needed -DPARSEC_VERSION=2.1 -DENABLE_PARSEC_HOOKS -I/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/libs/hooks/inst/amd64-linux.gcc-sniper/include -I/home/kleber.kruger/sniper-benchmarks/tools/hooks -I/home/kleber.kruger/snipersim/sniper/include  conftest.cpp >&5
+configure:17739: g++ -c -std=gnu++17 -std=gnu++17 -O3 -funroll-loops -fprefetch-loop-arrays -fpermissive -fno-exceptions -static-libgcc -Wl,--hash-style=both,--as-needed -DPARSEC_VERSION=2.1 -DENABLE_PARSEC_HOOKS -I/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/libs/hooks/inst/amd64-linux.gcc-sniper/include -I/home/kleber.kruger/sniper-benchmarks/tools/hooks -I/home/kleber.kruger/snipersim/sniper/include -I/home/kleber.kruger/sniper-benchmarks/tools/hooks -I/home/kleber.kruger/snipersim/sniper/include -I/home/kleber.kruger/sniper-benchmarks/tools/hooks -I/home/kleber.kruger/snipersim/sniper/include  conftest.cpp >&5
 configure:17742: $? = 0
 configure:17955: result: GNU/Linux ld.so
 configure:17964: checking how to hardcode library paths into programs
@@ -756,7 +756,7 @@ configure:24764: $? = 0
 configure:24778: result: yes
 configure:24785: checking for _doprnt
 configure:24841: gcc -o conftest -O3 -funroll-loops -fprefetch-loop-arrays -static-libgcc -Wl,--hash-style=both,--as-needed -DPARSEC_VERSION=2.1 -DENABLE_PARSEC_HOOKS -I/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/libs/hooks/inst/amd64-linux.gcc-sniper/include -I/home/kleber.kruger/sniper-benchmarks/tools/hooks -I/home/kleber.kruger/snipersim/sniper/include -DENABLE_PARMACS -Wall  -L/usr/lib64 -L/usr/lib -L/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/libs/hooks/inst/amd64-linux.gcc-sniper/lib -uparmacs_roi_end -uparmacs_roi_start -L/home/kleber.kruger/sniper-benchmarks/tools/hooks -lhooks_base -lrt -pthread conftest.c   -lhooks >&5
-/usr/bin/ld: /tmp/ccvjwfq4.o: in function `main':
+/usr/bin/ld: /tmp/ccLV8YDk.o: in function `main':
 conftest.c:(.text.startup+0xb): undefined reference to `_doprnt'
 collect2: error: ld returned 1 exit status
 configure:24847: $? = 1
@@ -1359,7 +1359,7 @@ configure:30616: test -s conftest.o
 configure:30619: $? = 0
 configure:30630: result: yes
 configure:30633: checking for ISO C99 varargs macros in C++
-configure:30669: g++ -c -O3 -funroll-loops -fprefetch-loop-arrays -fpermissive -fno-exceptions -static-libgcc -Wl,--hash-style=both,--as-needed -DPARSEC_VERSION=2.1 -DENABLE_PARSEC_HOOKS -I/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/libs/hooks/inst/amd64-linux.gcc-sniper/include -I/home/kleber.kruger/sniper-benchmarks/tools/hooks -I/home/kleber.kruger/snipersim/sniper/include  conftest.cpp >&5
+configure:30669: g++ -c -std=gnu++17 -std=gnu++17 -O3 -funroll-loops -fprefetch-loop-arrays -fpermissive -fno-exceptions -static-libgcc -Wl,--hash-style=both,--as-needed -DPARSEC_VERSION=2.1 -DENABLE_PARSEC_HOOKS -I/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/libs/hooks/inst/amd64-linux.gcc-sniper/include -I/home/kleber.kruger/sniper-benchmarks/tools/hooks -I/home/kleber.kruger/snipersim/sniper/include -I/home/kleber.kruger/sniper-benchmarks/tools/hooks -I/home/kleber.kruger/snipersim/sniper/include -I/home/kleber.kruger/sniper-benchmarks/tools/hooks -I/home/kleber.kruger/snipersim/sniper/include  conftest.cpp >&5
 configure:30675: $? = 0
 configure:30682: test -z "$ac_cxx_werror_flag" || test ! -s conftest.err
 configure:30685: $? = 0
@@ -1887,7 +1887,7 @@ configure:33051: $? = 0
 configure:33065: result: yes
 configure:32969: checking for fdwalk
 configure:33025: gcc -o conftest -O3 -funroll-loops -fprefetch-loop-arrays -static-libgcc -Wl,--hash-style=both,--as-needed -DPARSEC_VERSION=2.1 -DENABLE_PARSEC_HOOKS -I/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/libs/hooks/inst/amd64-linux.gcc-sniper/include -I/home/kleber.kruger/sniper-benchmarks/tools/hooks -I/home/kleber.kruger/snipersim/sniper/include -DENABLE_PARMACS -Wall  -L/usr/lib64 -L/usr/lib -L/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/libs/hooks/inst/amd64-linux.gcc-sniper/lib -uparmacs_roi_end -uparmacs_roi_start -L/home/kleber.kruger/sniper-benchmarks/tools/hooks -lhooks_base -lrt -pthread conftest.c   -lhooks >&5
-/usr/bin/ld: /tmp/ccYQd774.o: in function `main':
+/usr/bin/ld: /tmp/cczwMc94.o: in function `main':
 conftest.c:(.text.startup+0xb): undefined reference to `fdwalk'
 collect2: error: ld returned 1 exit status
 configure:33031: $? = 1
@@ -2039,7 +2039,7 @@ configure:33163: $? = 0
 configure:33177: result: yes
 configure:33081: checking for nsleep
 configure:33137: gcc -o conftest -O3 -funroll-loops -fprefetch-loop-arrays -static-libgcc -Wl,--hash-style=both,--as-needed -DPARSEC_VERSION=2.1 -DENABLE_PARSEC_HOOKS -I/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/libs/hooks/inst/amd64-linux.gcc-sniper/include -I/home/kleber.kruger/sniper-benchmarks/tools/hooks -I/home/kleber.kruger/snipersim/sniper/include -DENABLE_PARMACS -Wall  -L/usr/lib64 -L/usr/lib -L/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/libs/hooks/inst/amd64-linux.gcc-sniper/lib -uparmacs_roi_end -uparmacs_roi_start -L/home/kleber.kruger/sniper-benchmarks/tools/hooks -lhooks_base -lrt -pthread conftest.c   -lhooks >&5
-/usr/bin/ld: /tmp/ccrwJuIh.o: in function `main':
+/usr/bin/ld: /tmp/cc085DIl.o: in function `main':
 conftest.c:(.text.startup+0xb): undefined reference to `nsleep'
 collect2: error: ld returned 1 exit status
 configure:33143: $? = 1
@@ -2437,7 +2437,7 @@ configure:33336: checking for crt_externs.h
 configure:33344: result: no
 configure:33361: checking for _NSGetEnviron
 configure:33417: gcc -o conftest -O3 -funroll-loops -fprefetch-loop-arrays -static-libgcc -Wl,--hash-style=both,--as-needed -DPARSEC_VERSION=2.1 -DENABLE_PARSEC_HOOKS -I/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/libs/hooks/inst/amd64-linux.gcc-sniper/include -I/home/kleber.kruger/sniper-benchmarks/tools/hooks -I/home/kleber.kruger/snipersim/sniper/include -DENABLE_PARMACS -Wall  -L/usr/lib64 -L/usr/lib -L/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/libs/hooks/inst/amd64-linux.gcc-sniper/lib -uparmacs_roi_end -uparmacs_roi_start -L/home/kleber.kruger/sniper-benchmarks/tools/hooks -lhooks_base -lrt -pthread conftest.c   -lhooks >&5
-/usr/bin/ld: /tmp/cczAF5Py.o: in function `main':
+/usr/bin/ld: /tmp/cc1h0qeB.o: in function `main':
 conftest.c:(.text.startup+0xb): undefined reference to `_NSGetEnviron'
 collect2: error: ld returned 1 exit status
 configure:33423: $? = 1
@@ -2766,7 +2766,7 @@ configure:34598: $? = 0
 configure:34614: result: yes
 configure:34716: checking for sys_errlist
 configure:34743: gcc -o conftest -O3 -funroll-loops -fprefetch-loop-arrays -static-libgcc -Wl,--hash-style=both,--as-needed -DPARSEC_VERSION=2.1 -DENABLE_PARSEC_HOOKS -I/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/libs/hooks/inst/amd64-linux.gcc-sniper/include -I/home/kleber.kruger/sniper-benchmarks/tools/hooks -I/home/kleber.kruger/snipersim/sniper/include -DENABLE_PARMACS -Wall  -L/usr/lib64 -L/usr/lib -L/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/libs/hooks/inst/amd64-linux.gcc-sniper/lib -uparmacs_roi_end -uparmacs_roi_start -L/home/kleber.kruger/sniper-benchmarks/tools/hooks -lhooks_base -lrt -pthread conftest.c   -lhooks >&5
-/usr/bin/ld: /tmp/cchWCGuO.o: in function `main':
+/usr/bin/ld: /tmp/ccgaaiDR.o: in function `main':
 conftest.c:(.text.startup+0xd): warning: `sys_errlist' is deprecated; use `strerror' or `strerror_r' instead
 /usr/bin/ld: conftest.c:(.text.startup+0x6): warning: `sys_nerr' is deprecated; use `strerror' or `strerror_r' instead
 configure:34749: $? = 0
@@ -2865,7 +2865,7 @@ conftest.c:122:7: warning: implicit declaration of function 'strlcat'; did you m
   122 |   if (strlcat (p, "bye", 0) != 3)
       |       ^~~~~~~
       |       strncat
-/usr/bin/ld: /tmp/cchd29rN.o: in function `main':
+/usr/bin/ld: /tmp/ccRbdW2R.o: in function `main':
 conftest.c:(.text.startup+0x2e): undefined reference to `strlcpy'
 /usr/bin/ld: conftest.c:(.text.startup+0x41): undefined reference to `strlcat'
 collect2: error: ld returned 1 exit status
@@ -3157,7 +3157,7 @@ configure: failed program was:
 configure:35548: result: no
 configure:35582: checking for dlopen
 configure:35638: gcc -o conftest -O3 -funroll-loops -fprefetch-loop-arrays -static-libgcc -Wl,--hash-style=both,--as-needed -DPARSEC_VERSION=2.1 -DENABLE_PARSEC_HOOKS -I/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/libs/hooks/inst/amd64-linux.gcc-sniper/include -I/home/kleber.kruger/sniper-benchmarks/tools/hooks -I/home/kleber.kruger/snipersim/sniper/include -DENABLE_PARMACS -Wall  -L/usr/lib64 -L/usr/lib -L/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/libs/hooks/inst/amd64-linux.gcc-sniper/lib -uparmacs_roi_end -uparmacs_roi_start -L/home/kleber.kruger/sniper-benchmarks/tools/hooks -lhooks_base -lrt -pthread conftest.c   -lhooks >&5
-/usr/bin/ld: /tmp/ccTrD1E0.o: in function `main':
+/usr/bin/ld: /tmp/ccFeY7Z8.o: in function `main':
 conftest.c:(.text.startup+0xb): undefined reference to `dlopen'
 collect2: error: ld returned 1 exit status
 configure:35644: $? = 1
@@ -3321,7 +3321,7 @@ configure: failed program was:
 configure:35677: result: no
 configure:35871: checking for NSLinkModule
 configure:35927: gcc -o conftest -O3 -funroll-loops -fprefetch-loop-arrays -static-libgcc -Wl,--hash-style=both,--as-needed -DPARSEC_VERSION=2.1 -DENABLE_PARSEC_HOOKS -I/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/libs/hooks/inst/amd64-linux.gcc-sniper/include -I/home/kleber.kruger/sniper-benchmarks/tools/hooks -I/home/kleber.kruger/snipersim/sniper/include -DENABLE_PARMACS -Wall  -L/usr/lib64 -L/usr/lib -L/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/libs/hooks/inst/amd64-linux.gcc-sniper/lib -uparmacs_roi_end -uparmacs_roi_start -L/home/kleber.kruger/sniper-benchmarks/tools/hooks -lhooks_base -lrt -pthread conftest.c   -lhooks >&5
-/usr/bin/ld: /tmp/cc3B3eal.o: in function `main':
+/usr/bin/ld: /tmp/cc6DA3gr.o: in function `main':
 conftest.c:(.text.startup+0xb): undefined reference to `NSLinkModule'
 collect2: error: ld returned 1 exit status
 configure:35933: $? = 1
@@ -3922,7 +3922,7 @@ ac_cv_env_CPP_value=/usr/bin/cpp
 ac_cv_env_CXXCPP_set=set
 ac_cv_env_CXXCPP_value=
 ac_cv_env_CXXFLAGS_set=set
-ac_cv_env_CXXFLAGS_value='-O3 -funroll-loops -fprefetch-loop-arrays -fpermissive -fno-exceptions -static-libgcc -Wl,--hash-style=both,--as-needed -DPARSEC_VERSION=2.1 -DENABLE_PARSEC_HOOKS -I/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/libs/hooks/inst/amd64-linux.gcc-sniper/include -I/home/kleber.kruger/sniper-benchmarks/tools/hooks -I/home/kleber.kruger/snipersim/sniper/include'
+ac_cv_env_CXXFLAGS_value='-std=gnu++17 -std=gnu++17 -O3 -funroll-loops -fprefetch-loop-arrays -fpermissive -fno-exceptions -static-libgcc -Wl,--hash-style=both,--as-needed -DPARSEC_VERSION=2.1 -DENABLE_PARSEC_HOOKS -I/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/libs/hooks/inst/amd64-linux.gcc-sniper/include -I/home/kleber.kruger/sniper-benchmarks/tools/hooks -I/home/kleber.kruger/snipersim/sniper/include -I/home/kleber.kruger/sniper-benchmarks/tools/hooks -I/home/kleber.kruger/snipersim/sniper/include -I/home/kleber.kruger/sniper-benchmarks/tools/hooks -I/home/kleber.kruger/snipersim/sniper/include'
 ac_cv_env_CXX_set=set
 ac_cv_env_CXX_value=g++
 ac_cv_env_F77_set=
@@ -4156,7 +4156,7 @@ CROSS_COMPILING_TRUE='#'
 CXX='g++'
 CXXCPP='g++ -E'
 CXXDEPMODE='depmode=gcc3'
-CXXFLAGS='-O3 -funroll-loops -fprefetch-loop-arrays -fpermissive -fno-exceptions -static-libgcc -Wl,--hash-style=both,--as-needed -DPARSEC_VERSION=2.1 -DENABLE_PARSEC_HOOKS -I/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/libs/hooks/inst/amd64-linux.gcc-sniper/include -I/home/kleber.kruger/sniper-benchmarks/tools/hooks -I/home/kleber.kruger/snipersim/sniper/include'
+CXXFLAGS='-std=gnu++17 -std=gnu++17 -O3 -funroll-loops -fprefetch-loop-arrays -fpermissive -fno-exceptions -static-libgcc -Wl,--hash-style=both,--as-needed -DPARSEC_VERSION=2.1 -DENABLE_PARSEC_HOOKS -I/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/libs/hooks/inst/amd64-linux.gcc-sniper/include -I/home/kleber.kruger/sniper-benchmarks/tools/hooks -I/home/kleber.kruger/snipersim/sniper/include -I/home/kleber.kruger/sniper-benchmarks/tools/hooks -I/home/kleber.kruger/snipersim/sniper/include -I/home/kleber.kruger/sniper-benchmarks/tools/hooks -I/home/kleber.kruger/snipersim/sniper/include'
 CYGPATH_W='echo'
 DATADIRNAME='share'
 DEFS='-DHAVE_CONFIG_H'

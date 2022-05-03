@@ -1,5 +1,5 @@
 Try: gcc
-Line: gcc -O3 -funroll-loops -fprefetch-loop-arrays -static-libgcc -Wl,--hash-style=both,--as-needed -DPARSEC_VERSION=2.1 -DENABLE_PARSEC_HOOKS -I/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/libs/hooks/inst/amd64-linux.gcc-sniper/include -I/home/kleber.kruger/sniper-benchmarks/tools/hooks -I/home/kleber.kruger/snipersim/sniper/include -DENABLE_PARMACS cmake_bootstrap_1232769.test.c -o cmake_bootstrap_1232769.test
+Line: gcc -O3 -funroll-loops -fprefetch-loop-arrays -static-libgcc -Wl,--hash-style=both,--as-needed -DPARSEC_VERSION=2.1 -DENABLE_PARSEC_HOOKS -I/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/libs/hooks/inst/amd64-linux.gcc-sniper/include -I/home/kleber.kruger/sniper-benchmarks/tools/hooks -I/home/kleber.kruger/snipersim/sniper/include -DENABLE_PARMACS cmake_bootstrap_1573951.test.c -o cmake_bootstrap_1573951.test
 ----------  file   -----------------------
 #ifdef __cplusplus
 # error "The CMAKE_C_COMPILER is set to a C++ compiler"
@@ -22,7 +22,7 @@ int main(int argc, char* argv[])
 1
 Test succeded
 Try: g++
-Line: g++ -std=gnu++98 -O3 -funroll-loops -fprefetch-loop-arrays -fpermissive -fno-exceptions -static-libgcc -Wl,--hash-style=both,--as-needed -DPARSEC_VERSION=2.1 -DENABLE_PARSEC_HOOKS -I/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/libs/hooks/inst/amd64-linux.gcc-sniper/include -I/home/kleber.kruger/sniper-benchmarks/tools/hooks -I/home/kleber.kruger/snipersim/sniper/include -fexceptions -DTEST1 cmake_bootstrap_1232769.test.cxx -o cmake_bootstrap_1232769.test
+Line: g++ -std=gnu++98 -std=gnu++98 -std=gnu++98 -O3 -funroll-loops -fprefetch-loop-arrays -fpermissive -fno-exceptions -static-libgcc -Wl,--hash-style=both,--as-needed -DPARSEC_VERSION=2.1 -DENABLE_PARSEC_HOOKS -I/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/libs/hooks/inst/amd64-linux.gcc-sniper/include -I/home/kleber.kruger/sniper-benchmarks/tools/hooks -I/home/kleber.kruger/snipersim/sniper/include -I/home/kleber.kruger/sniper-benchmarks/tools/hooks -I/home/kleber.kruger/snipersim/sniper/include -I/home/kleber.kruger/sniper-benchmarks/tools/hooks -I/home/kleber.kruger/snipersim/sniper/include -fexceptions -DTEST1 cmake_bootstrap_1573951.test.cxx -o cmake_bootstrap_1573951.test
 ----------  file   -----------------------
 #if defined(TEST1)
 # include <iostream>
@@ -52,7 +52,7 @@ int main()
 1
 Test succeded
 Try: g++
-Line: g++ -std=gnu++98 -O3 -funroll-loops -fprefetch-loop-arrays -fpermissive -fno-exceptions -static-libgcc -Wl,--hash-style=both,--as-needed -DPARSEC_VERSION=2.1 -DENABLE_PARSEC_HOOKS -I/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/libs/hooks/inst/amd64-linux.gcc-sniper/include -I/home/kleber.kruger/sniper-benchmarks/tools/hooks -I/home/kleber.kruger/snipersim/sniper/include -fexceptions cmake_bootstrap_1232769.test.cxx -o cmake_bootstrap_1232769.test
+Line: g++ -std=gnu++98 -std=gnu++98 -std=gnu++98 -O3 -funroll-loops -fprefetch-loop-arrays -fpermissive -fno-exceptions -static-libgcc -Wl,--hash-style=both,--as-needed -DPARSEC_VERSION=2.1 -DENABLE_PARSEC_HOOKS -I/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/libs/hooks/inst/amd64-linux.gcc-sniper/include -I/home/kleber.kruger/sniper-benchmarks/tools/hooks -I/home/kleber.kruger/snipersim/sniper/include -I/home/kleber.kruger/sniper-benchmarks/tools/hooks -I/home/kleber.kruger/snipersim/sniper/include -I/home/kleber.kruger/sniper-benchmarks/tools/hooks -I/home/kleber.kruger/snipersim/sniper/include -fexceptions cmake_bootstrap_1573951.test.cxx -o cmake_bootstrap_1573951.test
 ----------  file   -----------------------
 #if defined(__GNUC__) && !defined(__INTEL_COMPILER)
 #include <iostream>
@@ -62,7 +62,7 @@ int main() { std::cout << "This is GNU" << std::endl; return 0;}
 This is GNU
 Test succeded
 Try: g++
-Line: g++ -std=gnu++98 -O3 -funroll-loops -fprefetch-loop-arrays -fpermissive -fno-exceptions -static-libgcc -Wl,--hash-style=both,--as-needed -DPARSEC_VERSION=2.1 -DENABLE_PARSEC_HOOKS -I/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/libs/hooks/inst/amd64-linux.gcc-sniper/include -I/home/kleber.kruger/sniper-benchmarks/tools/hooks -I/home/kleber.kruger/snipersim/sniper/include -fexceptions -DTEST_KWSYS_STL_HAVE_STD /home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/tools/cmake/src/Source/kwsys/kwsysPlatformTestsCXX.cxx -o cmake_bootstrap_1232769.test
+Line: g++ -std=gnu++98 -std=gnu++98 -std=gnu++98 -O3 -funroll-loops -fprefetch-loop-arrays -fpermissive -fno-exceptions -static-libgcc -Wl,--hash-style=both,--as-needed -DPARSEC_VERSION=2.1 -DENABLE_PARSEC_HOOKS -I/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/libs/hooks/inst/amd64-linux.gcc-sniper/include -I/home/kleber.kruger/sniper-benchmarks/tools/hooks -I/home/kleber.kruger/snipersim/sniper/include -I/home/kleber.kruger/sniper-benchmarks/tools/hooks -I/home/kleber.kruger/snipersim/sniper/include -I/home/kleber.kruger/sniper-benchmarks/tools/hooks -I/home/kleber.kruger/snipersim/sniper/include -fexceptions -DTEST_KWSYS_STL_HAVE_STD /home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/tools/cmake/src/Source/kwsys/kwsysPlatformTestsCXX.cxx -o cmake_bootstrap_1573951.test
 ----------  file   -----------------------
 // Setup for tests that use result of stl namespace test.
 #if defined(KWSYS_STL_HAVE_STD)
@@ -509,7 +509,7 @@ int main()
 ------------------------------------------
 Test succeded
 Try: g++
-Line: g++ -std=gnu++98 -O3 -funroll-loops -fprefetch-loop-arrays -fpermissive -fno-exceptions -static-libgcc -Wl,--hash-style=both,--as-needed -DPARSEC_VERSION=2.1 -DENABLE_PARSEC_HOOKS -I/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/libs/hooks/inst/amd64-linux.gcc-sniper/include -I/home/kleber.kruger/sniper-benchmarks/tools/hooks -I/home/kleber.kruger/snipersim/sniper/include -fexceptions -DTEST_KWSYS_IOS_USE_ANSI /home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/tools/cmake/src/Source/kwsys/kwsysPlatformTestsCXX.cxx -o cmake_bootstrap_1232769.test
+Line: g++ -std=gnu++98 -std=gnu++98 -std=gnu++98 -O3 -funroll-loops -fprefetch-loop-arrays -fpermissive -fno-exceptions -static-libgcc -Wl,--hash-style=both,--as-needed -DPARSEC_VERSION=2.1 -DENABLE_PARSEC_HOOKS -I/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/libs/hooks/inst/amd64-linux.gcc-sniper/include -I/home/kleber.kruger/sniper-benchmarks/tools/hooks -I/home/kleber.kruger/snipersim/sniper/include -I/home/kleber.kruger/sniper-benchmarks/tools/hooks -I/home/kleber.kruger/snipersim/sniper/include -I/home/kleber.kruger/sniper-benchmarks/tools/hooks -I/home/kleber.kruger/snipersim/sniper/include -fexceptions -DTEST_KWSYS_IOS_USE_ANSI /home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/tools/cmake/src/Source/kwsys/kwsysPlatformTestsCXX.cxx -o cmake_bootstrap_1573951.test
 ----------  file   -----------------------
 // Setup for tests that use result of stl namespace test.
 #if defined(KWSYS_STL_HAVE_STD)
@@ -956,7 +956,7 @@ int main()
 ------------------------------------------
 Test succeded
 Try: g++
-Line: g++ -std=gnu++98 -O3 -funroll-loops -fprefetch-loop-arrays -fpermissive -fno-exceptions -static-libgcc -Wl,--hash-style=both,--as-needed -DPARSEC_VERSION=2.1 -DENABLE_PARSEC_HOOKS -I/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/libs/hooks/inst/amd64-linux.gcc-sniper/include -I/home/kleber.kruger/sniper-benchmarks/tools/hooks -I/home/kleber.kruger/snipersim/sniper/include -fexceptions -DTEST_KWSYS_IOS_HAVE_STD /home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/tools/cmake/src/Source/kwsys/kwsysPlatformTestsCXX.cxx -o cmake_bootstrap_1232769.test
+Line: g++ -std=gnu++98 -std=gnu++98 -std=gnu++98 -O3 -funroll-loops -fprefetch-loop-arrays -fpermissive -fno-exceptions -static-libgcc -Wl,--hash-style=both,--as-needed -DPARSEC_VERSION=2.1 -DENABLE_PARSEC_HOOKS -I/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/libs/hooks/inst/amd64-linux.gcc-sniper/include -I/home/kleber.kruger/sniper-benchmarks/tools/hooks -I/home/kleber.kruger/snipersim/sniper/include -I/home/kleber.kruger/sniper-benchmarks/tools/hooks -I/home/kleber.kruger/snipersim/sniper/include -I/home/kleber.kruger/sniper-benchmarks/tools/hooks -I/home/kleber.kruger/snipersim/sniper/include -fexceptions -DTEST_KWSYS_IOS_HAVE_STD /home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/tools/cmake/src/Source/kwsys/kwsysPlatformTestsCXX.cxx -o cmake_bootstrap_1573951.test
 ----------  file   -----------------------
 // Setup for tests that use result of stl namespace test.
 #if defined(KWSYS_STL_HAVE_STD)
@@ -1403,7 +1403,7 @@ int main()
 ------------------------------------------
 Test succeded
 Try: g++
-Line: g++ -std=gnu++98 -O3 -funroll-loops -fprefetch-loop-arrays -fpermissive -fno-exceptions -static-libgcc -Wl,--hash-style=both,--as-needed -DPARSEC_VERSION=2.1 -DENABLE_PARSEC_HOOKS -I/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/libs/hooks/inst/amd64-linux.gcc-sniper/include -I/home/kleber.kruger/sniper-benchmarks/tools/hooks -I/home/kleber.kruger/snipersim/sniper/include -fexceptions -DTEST_KWSYS_IOS_USE_SSTREAM /home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/tools/cmake/src/Source/kwsys/kwsysPlatformTestsCXX.cxx -o cmake_bootstrap_1232769.test
+Line: g++ -std=gnu++98 -std=gnu++98 -std=gnu++98 -O3 -funroll-loops -fprefetch-loop-arrays -fpermissive -fno-exceptions -static-libgcc -Wl,--hash-style=both,--as-needed -DPARSEC_VERSION=2.1 -DENABLE_PARSEC_HOOKS -I/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/libs/hooks/inst/amd64-linux.gcc-sniper/include -I/home/kleber.kruger/sniper-benchmarks/tools/hooks -I/home/kleber.kruger/snipersim/sniper/include -I/home/kleber.kruger/sniper-benchmarks/tools/hooks -I/home/kleber.kruger/snipersim/sniper/include -I/home/kleber.kruger/sniper-benchmarks/tools/hooks -I/home/kleber.kruger/snipersim/sniper/include -fexceptions -DTEST_KWSYS_IOS_USE_SSTREAM /home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/tools/cmake/src/Source/kwsys/kwsysPlatformTestsCXX.cxx -o cmake_bootstrap_1573951.test
 ----------  file   -----------------------
 // Setup for tests that use result of stl namespace test.
 #if defined(KWSYS_STL_HAVE_STD)
@@ -1850,7 +1850,7 @@ int main()
 ------------------------------------------
 Test succeded
 Try: g++
-Line: g++ -std=gnu++98 -O3 -funroll-loops -fprefetch-loop-arrays -fpermissive -fno-exceptions -static-libgcc -Wl,--hash-style=both,--as-needed -DPARSEC_VERSION=2.1 -DENABLE_PARSEC_HOOKS -I/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/libs/hooks/inst/amd64-linux.gcc-sniper/include -I/home/kleber.kruger/sniper-benchmarks/tools/hooks -I/home/kleber.kruger/snipersim/sniper/include -fexceptions -DTEST_KWSYS_STL_STRING_HAVE_NEQ_CHAR -DKWSYS_STL_HAVE_STD=1 /home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/tools/cmake/src/Source/kwsys/kwsysPlatformTestsCXX.cxx -o cmake_bootstrap_1232769.test
+Line: g++ -std=gnu++98 -std=gnu++98 -std=gnu++98 -O3 -funroll-loops -fprefetch-loop-arrays -fpermissive -fno-exceptions -static-libgcc -Wl,--hash-style=both,--as-needed -DPARSEC_VERSION=2.1 -DENABLE_PARSEC_HOOKS -I/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/libs/hooks/inst/amd64-linux.gcc-sniper/include -I/home/kleber.kruger/sniper-benchmarks/tools/hooks -I/home/kleber.kruger/snipersim/sniper/include -I/home/kleber.kruger/sniper-benchmarks/tools/hooks -I/home/kleber.kruger/snipersim/sniper/include -I/home/kleber.kruger/sniper-benchmarks/tools/hooks -I/home/kleber.kruger/snipersim/sniper/include -fexceptions -DTEST_KWSYS_STL_STRING_HAVE_NEQ_CHAR -DKWSYS_STL_HAVE_STD=1 /home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/tools/cmake/src/Source/kwsys/kwsysPlatformTestsCXX.cxx -o cmake_bootstrap_1573951.test
 ----------  file   -----------------------
 // Setup for tests that use result of stl namespace test.
 #if defined(KWSYS_STL_HAVE_STD)
@@ -2297,7 +2297,7 @@ int main()
 ------------------------------------------
 Test succeded
 Try: g++
-Line: g++ -std=gnu++98 -O3 -funroll-loops -fprefetch-loop-arrays -fpermissive -fno-exceptions -static-libgcc -Wl,--hash-style=both,--as-needed -DPARSEC_VERSION=2.1 -DENABLE_PARSEC_HOOKS -I/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/libs/hooks/inst/amd64-linux.gcc-sniper/include -I/home/kleber.kruger/sniper-benchmarks/tools/hooks -I/home/kleber.kruger/snipersim/sniper/include -fexceptions -DTEST_KWSYS_STL_HAS_ITERATOR_TRAITS -DKWSYS_STL_HAVE_STD=1 /home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/tools/cmake/src/Source/kwsys/kwsysPlatformTestsCXX.cxx -o cmake_bootstrap_1232769.test
+Line: g++ -std=gnu++98 -std=gnu++98 -std=gnu++98 -O3 -funroll-loops -fprefetch-loop-arrays -fpermissive -fno-exceptions -static-libgcc -Wl,--hash-style=both,--as-needed -DPARSEC_VERSION=2.1 -DENABLE_PARSEC_HOOKS -I/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/libs/hooks/inst/amd64-linux.gcc-sniper/include -I/home/kleber.kruger/sniper-benchmarks/tools/hooks -I/home/kleber.kruger/snipersim/sniper/include -I/home/kleber.kruger/sniper-benchmarks/tools/hooks -I/home/kleber.kruger/snipersim/sniper/include -I/home/kleber.kruger/sniper-benchmarks/tools/hooks -I/home/kleber.kruger/snipersim/sniper/include -fexceptions -DTEST_KWSYS_STL_HAS_ITERATOR_TRAITS -DKWSYS_STL_HAVE_STD=1 /home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/tools/cmake/src/Source/kwsys/kwsysPlatformTestsCXX.cxx -o cmake_bootstrap_1573951.test
 ----------  file   -----------------------
 // Setup for tests that use result of stl namespace test.
 #if defined(KWSYS_STL_HAVE_STD)
@@ -2744,7 +2744,7 @@ int main()
 ------------------------------------------
 Test succeded
 Try: g++
-Line: g++ -std=gnu++98 -O3 -funroll-loops -fprefetch-loop-arrays -fpermissive -fno-exceptions -static-libgcc -Wl,--hash-style=both,--as-needed -DPARSEC_VERSION=2.1 -DENABLE_PARSEC_HOOKS -I/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/libs/hooks/inst/amd64-linux.gcc-sniper/include -I/home/kleber.kruger/sniper-benchmarks/tools/hooks -I/home/kleber.kruger/snipersim/sniper/include -fexceptions -DTEST_KWSYS_STL_HAS_ALLOCATOR_TEMPLATE -DKWSYS_STL_HAVE_STD=1 /home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/tools/cmake/src/Source/kwsys/kwsysPlatformTestsCXX.cxx -o cmake_bootstrap_1232769.test
+Line: g++ -std=gnu++98 -std=gnu++98 -std=gnu++98 -O3 -funroll-loops -fprefetch-loop-arrays -fpermissive -fno-exceptions -static-libgcc -Wl,--hash-style=both,--as-needed -DPARSEC_VERSION=2.1 -DENABLE_PARSEC_HOOKS -I/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/libs/hooks/inst/amd64-linux.gcc-sniper/include -I/home/kleber.kruger/sniper-benchmarks/tools/hooks -I/home/kleber.kruger/snipersim/sniper/include -I/home/kleber.kruger/sniper-benchmarks/tools/hooks -I/home/kleber.kruger/snipersim/sniper/include -I/home/kleber.kruger/sniper-benchmarks/tools/hooks -I/home/kleber.kruger/snipersim/sniper/include -fexceptions -DTEST_KWSYS_STL_HAS_ALLOCATOR_TEMPLATE -DKWSYS_STL_HAVE_STD=1 /home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/tools/cmake/src/Source/kwsys/kwsysPlatformTestsCXX.cxx -o cmake_bootstrap_1573951.test
 ----------  file   -----------------------
 // Setup for tests that use result of stl namespace test.
 #if defined(KWSYS_STL_HAVE_STD)
@@ -3191,7 +3191,7 @@ int main()
 ------------------------------------------
 Test succeded
 Try: g++
-Line: g++ -std=gnu++98 -O3 -funroll-loops -fprefetch-loop-arrays -fpermissive -fno-exceptions -static-libgcc -Wl,--hash-style=both,--as-needed -DPARSEC_VERSION=2.1 -DENABLE_PARSEC_HOOKS -I/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/libs/hooks/inst/amd64-linux.gcc-sniper/include -I/home/kleber.kruger/sniper-benchmarks/tools/hooks -I/home/kleber.kruger/snipersim/sniper/include -fexceptions -DTEST_KWSYS_STL_HAS_ALLOCATOR_REBIND -DKWSYS_STL_HAVE_STD=1 /home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/tools/cmake/src/Source/kwsys/kwsysPlatformTestsCXX.cxx -o cmake_bootstrap_1232769.test
+Line: g++ -std=gnu++98 -std=gnu++98 -std=gnu++98 -O3 -funroll-loops -fprefetch-loop-arrays -fpermissive -fno-exceptions -static-libgcc -Wl,--hash-style=both,--as-needed -DPARSEC_VERSION=2.1 -DENABLE_PARSEC_HOOKS -I/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/libs/hooks/inst/amd64-linux.gcc-sniper/include -I/home/kleber.kruger/sniper-benchmarks/tools/hooks -I/home/kleber.kruger/snipersim/sniper/include -I/home/kleber.kruger/sniper-benchmarks/tools/hooks -I/home/kleber.kruger/snipersim/sniper/include -I/home/kleber.kruger/sniper-benchmarks/tools/hooks -I/home/kleber.kruger/snipersim/sniper/include -fexceptions -DTEST_KWSYS_STL_HAS_ALLOCATOR_REBIND -DKWSYS_STL_HAVE_STD=1 /home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/tools/cmake/src/Source/kwsys/kwsysPlatformTestsCXX.cxx -o cmake_bootstrap_1573951.test
 ----------  file   -----------------------
 // Setup for tests that use result of stl namespace test.
 #if defined(KWSYS_STL_HAVE_STD)
@@ -3638,7 +3638,7 @@ int main()
 ------------------------------------------
 Test succeded
 Try: g++
-Line: g++ -std=gnu++98 -O3 -funroll-loops -fprefetch-loop-arrays -fpermissive -fno-exceptions -static-libgcc -Wl,--hash-style=both,--as-needed -DPARSEC_VERSION=2.1 -DENABLE_PARSEC_HOOKS -I/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/libs/hooks/inst/amd64-linux.gcc-sniper/include -I/home/kleber.kruger/sniper-benchmarks/tools/hooks -I/home/kleber.kruger/snipersim/sniper/include -fexceptions -DTEST_KWSYS_STL_HAS_ALLOCATOR_MAX_SIZE_ARGUMENT -DKWSYS_STL_HAVE_STD=1 /home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/tools/cmake/src/Source/kwsys/kwsysPlatformTestsCXX.cxx -o cmake_bootstrap_1232769.test
+Line: g++ -std=gnu++98 -std=gnu++98 -std=gnu++98 -O3 -funroll-loops -fprefetch-loop-arrays -fpermissive -fno-exceptions -static-libgcc -Wl,--hash-style=both,--as-needed -DPARSEC_VERSION=2.1 -DENABLE_PARSEC_HOOKS -I/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/libs/hooks/inst/amd64-linux.gcc-sniper/include -I/home/kleber.kruger/sniper-benchmarks/tools/hooks -I/home/kleber.kruger/snipersim/sniper/include -I/home/kleber.kruger/sniper-benchmarks/tools/hooks -I/home/kleber.kruger/snipersim/sniper/include -I/home/kleber.kruger/sniper-benchmarks/tools/hooks -I/home/kleber.kruger/snipersim/sniper/include -fexceptions -DTEST_KWSYS_STL_HAS_ALLOCATOR_MAX_SIZE_ARGUMENT -DKWSYS_STL_HAVE_STD=1 /home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/tools/cmake/src/Source/kwsys/kwsysPlatformTestsCXX.cxx -o cmake_bootstrap_1573951.test
 ----------  file   -----------------------
 // Setup for tests that use result of stl namespace test.
 #if defined(KWSYS_STL_HAVE_STD)
@@ -4097,7 +4097,7 @@ In file included from /usr/include/x86_64-linux-gnu/c++/9/bits/c++allocator.h:33
 /usr/include/c++/9/ext/new_allocator.h:132:7: note:   candidate expects 0 arguments, 1 provided
 Test failed to compile
 Try: g++
-Line: g++ -std=gnu++98 -O3 -funroll-loops -fprefetch-loop-arrays -fpermissive -fno-exceptions -static-libgcc -Wl,--hash-style=both,--as-needed -DPARSEC_VERSION=2.1 -DENABLE_PARSEC_HOOKS -I/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/libs/hooks/inst/amd64-linux.gcc-sniper/include -I/home/kleber.kruger/sniper-benchmarks/tools/hooks -I/home/kleber.kruger/snipersim/sniper/include -fexceptions -DTEST_KWSYS_STL_HAS_ALLOCATOR_OBJECTS -DKWSYS_STL_HAVE_STD=1 /home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/tools/cmake/src/Source/kwsys/kwsysPlatformTestsCXX.cxx -o cmake_bootstrap_1232769.test
+Line: g++ -std=gnu++98 -std=gnu++98 -std=gnu++98 -O3 -funroll-loops -fprefetch-loop-arrays -fpermissive -fno-exceptions -static-libgcc -Wl,--hash-style=both,--as-needed -DPARSEC_VERSION=2.1 -DENABLE_PARSEC_HOOKS -I/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/libs/hooks/inst/amd64-linux.gcc-sniper/include -I/home/kleber.kruger/sniper-benchmarks/tools/hooks -I/home/kleber.kruger/snipersim/sniper/include -I/home/kleber.kruger/sniper-benchmarks/tools/hooks -I/home/kleber.kruger/snipersim/sniper/include -I/home/kleber.kruger/sniper-benchmarks/tools/hooks -I/home/kleber.kruger/snipersim/sniper/include -fexceptions -DTEST_KWSYS_STL_HAS_ALLOCATOR_OBJECTS -DKWSYS_STL_HAVE_STD=1 /home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/tools/cmake/src/Source/kwsys/kwsysPlatformTestsCXX.cxx -o cmake_bootstrap_1573951.test
 ----------  file   -----------------------
 // Setup for tests that use result of stl namespace test.
 #if defined(KWSYS_STL_HAVE_STD)
@@ -4544,7 +4544,7 @@ int main()
 ------------------------------------------
 Test succeded
 Try: g++
-Line: g++ -std=gnu++98 -O3 -funroll-loops -fprefetch-loop-arrays -fpermissive -fno-exceptions -static-libgcc -Wl,--hash-style=both,--as-needed -DPARSEC_VERSION=2.1 -DENABLE_PARSEC_HOOKS -I/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/libs/hooks/inst/amd64-linux.gcc-sniper/include -I/home/kleber.kruger/sniper-benchmarks/tools/hooks -I/home/kleber.kruger/snipersim/sniper/include -fexceptions -DTEST_KWSYS_CXX_HAS_CSTDDEF /home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/tools/cmake/src/Source/kwsys/kwsysPlatformTestsCXX.cxx -o cmake_bootstrap_1232769.test
+Line: g++ -std=gnu++98 -std=gnu++98 -std=gnu++98 -O3 -funroll-loops -fprefetch-loop-arrays -fpermissive -fno-exceptions -static-libgcc -Wl,--hash-style=both,--as-needed -DPARSEC_VERSION=2.1 -DENABLE_PARSEC_HOOKS -I/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/libs/hooks/inst/amd64-linux.gcc-sniper/include -I/home/kleber.kruger/sniper-benchmarks/tools/hooks -I/home/kleber.kruger/snipersim/sniper/include -I/home/kleber.kruger/sniper-benchmarks/tools/hooks -I/home/kleber.kruger/snipersim/sniper/include -I/home/kleber.kruger/sniper-benchmarks/tools/hooks -I/home/kleber.kruger/snipersim/sniper/include -fexceptions -DTEST_KWSYS_CXX_HAS_CSTDDEF /home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/tools/cmake/src/Source/kwsys/kwsysPlatformTestsCXX.cxx -o cmake_bootstrap_1573951.test
 ----------  file   -----------------------
 // Setup for tests that use result of stl namespace test.
 #if defined(KWSYS_STL_HAVE_STD)
@@ -4991,7 +4991,7 @@ int main()
 ------------------------------------------
 Test succeded
 Try: g++
-Line: g++ -std=gnu++98 -O3 -funroll-loops -fprefetch-loop-arrays -fpermissive -fno-exceptions -static-libgcc -Wl,--hash-style=both,--as-needed -DPARSEC_VERSION=2.1 -DENABLE_PARSEC_HOOKS -I/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/libs/hooks/inst/amd64-linux.gcc-sniper/include -I/home/kleber.kruger/sniper-benchmarks/tools/hooks -I/home/kleber.kruger/snipersim/sniper/include -fexceptions -DTEST_KWSYS_CXX_HAS_NULL_TEMPLATE_ARGS /home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/tools/cmake/src/Source/kwsys/kwsysPlatformTestsCXX.cxx -o cmake_bootstrap_1232769.test
+Line: g++ -std=gnu++98 -std=gnu++98 -std=gnu++98 -O3 -funroll-loops -fprefetch-loop-arrays -fpermissive -fno-exceptions -static-libgcc -Wl,--hash-style=both,--as-needed -DPARSEC_VERSION=2.1 -DENABLE_PARSEC_HOOKS -I/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/libs/hooks/inst/amd64-linux.gcc-sniper/include -I/home/kleber.kruger/sniper-benchmarks/tools/hooks -I/home/kleber.kruger/snipersim/sniper/include -I/home/kleber.kruger/sniper-benchmarks/tools/hooks -I/home/kleber.kruger/snipersim/sniper/include -I/home/kleber.kruger/sniper-benchmarks/tools/hooks -I/home/kleber.kruger/snipersim/sniper/include -fexceptions -DTEST_KWSYS_CXX_HAS_NULL_TEMPLATE_ARGS /home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/tools/cmake/src/Source/kwsys/kwsysPlatformTestsCXX.cxx -o cmake_bootstrap_1573951.test
 ----------  file   -----------------------
 // Setup for tests that use result of stl namespace test.
 #if defined(KWSYS_STL_HAVE_STD)
@@ -5450,7 +5450,7 @@ int main()
       |       ^
 Test failed to compile
 Try: g++
-Line: g++ -std=gnu++98 -O3 -funroll-loops -fprefetch-loop-arrays -fpermissive -fno-exceptions -static-libgcc -Wl,--hash-style=both,--as-needed -DPARSEC_VERSION=2.1 -DENABLE_PARSEC_HOOKS -I/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/libs/hooks/inst/amd64-linux.gcc-sniper/include -I/home/kleber.kruger/sniper-benchmarks/tools/hooks -I/home/kleber.kruger/snipersim/sniper/include -fexceptions -DTEST_KWSYS_CXX_HAS_MEMBER_TEMPLATES /home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/tools/cmake/src/Source/kwsys/kwsysPlatformTestsCXX.cxx -o cmake_bootstrap_1232769.test
+Line: g++ -std=gnu++98 -std=gnu++98 -std=gnu++98 -O3 -funroll-loops -fprefetch-loop-arrays -fpermissive -fno-exceptions -static-libgcc -Wl,--hash-style=both,--as-needed -DPARSEC_VERSION=2.1 -DENABLE_PARSEC_HOOKS -I/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/libs/hooks/inst/amd64-linux.gcc-sniper/include -I/home/kleber.kruger/sniper-benchmarks/tools/hooks -I/home/kleber.kruger/snipersim/sniper/include -I/home/kleber.kruger/sniper-benchmarks/tools/hooks -I/home/kleber.kruger/snipersim/sniper/include -I/home/kleber.kruger/sniper-benchmarks/tools/hooks -I/home/kleber.kruger/snipersim/sniper/include -fexceptions -DTEST_KWSYS_CXX_HAS_MEMBER_TEMPLATES /home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/tools/cmake/src/Source/kwsys/kwsysPlatformTestsCXX.cxx -o cmake_bootstrap_1573951.test
 ----------  file   -----------------------
 // Setup for tests that use result of stl namespace test.
 #if defined(KWSYS_STL_HAVE_STD)
@@ -5897,7 +5897,7 @@ int main()
 ------------------------------------------
 Test succeded
 Try: g++
-Line: g++ -std=gnu++98 -O3 -funroll-loops -fprefetch-loop-arrays -fpermissive -fno-exceptions -static-libgcc -Wl,--hash-style=both,--as-needed -DPARSEC_VERSION=2.1 -DENABLE_PARSEC_HOOKS -I/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/libs/hooks/inst/amd64-linux.gcc-sniper/include -I/home/kleber.kruger/sniper-benchmarks/tools/hooks -I/home/kleber.kruger/snipersim/sniper/include -fexceptions -DTEST_KWSYS_CXX_HAS_FULL_SPECIALIZATION /home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/tools/cmake/src/Source/kwsys/kwsysPlatformTestsCXX.cxx -o cmake_bootstrap_1232769.test
+Line: g++ -std=gnu++98 -std=gnu++98 -std=gnu++98 -O3 -funroll-loops -fprefetch-loop-arrays -fpermissive -fno-exceptions -static-libgcc -Wl,--hash-style=both,--as-needed -DPARSEC_VERSION=2.1 -DENABLE_PARSEC_HOOKS -I/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/libs/hooks/inst/amd64-linux.gcc-sniper/include -I/home/kleber.kruger/sniper-benchmarks/tools/hooks -I/home/kleber.kruger/snipersim/sniper/include -I/home/kleber.kruger/sniper-benchmarks/tools/hooks -I/home/kleber.kruger/snipersim/sniper/include -I/home/kleber.kruger/sniper-benchmarks/tools/hooks -I/home/kleber.kruger/snipersim/sniper/include -fexceptions -DTEST_KWSYS_CXX_HAS_FULL_SPECIALIZATION /home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/tools/cmake/src/Source/kwsys/kwsysPlatformTestsCXX.cxx -o cmake_bootstrap_1573951.test
 ----------  file   -----------------------
 // Setup for tests that use result of stl namespace test.
 #if defined(KWSYS_STL_HAVE_STD)
@@ -6344,7 +6344,7 @@ int main()
 ------------------------------------------
 Test succeded
 Try: g++
-Line: g++ -std=gnu++98 -O3 -funroll-loops -fprefetch-loop-arrays -fpermissive -fno-exceptions -static-libgcc -Wl,--hash-style=both,--as-needed -DPARSEC_VERSION=2.1 -DENABLE_PARSEC_HOOKS -I/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/libs/hooks/inst/amd64-linux.gcc-sniper/include -I/home/kleber.kruger/sniper-benchmarks/tools/hooks -I/home/kleber.kruger/snipersim/sniper/include -fexceptions -DTEST_KWSYS_CXX_HAS_ARGUMENT_DEPENDENT_LOOKUP /home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/tools/cmake/src/Source/kwsys/kwsysPlatformTestsCXX.cxx -o cmake_bootstrap_1232769.test
+Line: g++ -std=gnu++98 -std=gnu++98 -std=gnu++98 -O3 -funroll-loops -fprefetch-loop-arrays -fpermissive -fno-exceptions -static-libgcc -Wl,--hash-style=both,--as-needed -DPARSEC_VERSION=2.1 -DENABLE_PARSEC_HOOKS -I/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/libs/hooks/inst/amd64-linux.gcc-sniper/include -I/home/kleber.kruger/sniper-benchmarks/tools/hooks -I/home/kleber.kruger/snipersim/sniper/include -I/home/kleber.kruger/sniper-benchmarks/tools/hooks -I/home/kleber.kruger/snipersim/sniper/include -I/home/kleber.kruger/sniper-benchmarks/tools/hooks -I/home/kleber.kruger/snipersim/sniper/include -fexceptions -DTEST_KWSYS_CXX_HAS_ARGUMENT_DEPENDENT_LOOKUP /home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/tools/cmake/src/Source/kwsys/kwsysPlatformTestsCXX.cxx -o cmake_bootstrap_1573951.test
 ----------  file   -----------------------
 // Setup for tests that use result of stl namespace test.
 #if defined(KWSYS_STL_HAVE_STD)
@@ -6791,7 +6791,7 @@ int main()
 ------------------------------------------
 Test succeded
 Try: g++
-Line: g++ -std=gnu++98 -O3 -funroll-loops -fprefetch-loop-arrays -fpermissive -fno-exceptions -static-libgcc -Wl,--hash-style=both,--as-needed -DPARSEC_VERSION=2.1 -DENABLE_PARSEC_HOOKS -I/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/libs/hooks/inst/amd64-linux.gcc-sniper/include -I/home/kleber.kruger/sniper-benchmarks/tools/hooks -I/home/kleber.kruger/snipersim/sniper/include -fexceptions -DTEST_KWSYS_STAT_HAS_ST_MTIM /home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/tools/cmake/src/Source/kwsys/kwsysPlatformTestsCXX.cxx -o cmake_bootstrap_1232769.test
+Line: g++ -std=gnu++98 -std=gnu++98 -std=gnu++98 -O3 -funroll-loops -fprefetch-loop-arrays -fpermissive -fno-exceptions -static-libgcc -Wl,--hash-style=both,--as-needed -DPARSEC_VERSION=2.1 -DENABLE_PARSEC_HOOKS -I/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/libs/hooks/inst/amd64-linux.gcc-sniper/include -I/home/kleber.kruger/sniper-benchmarks/tools/hooks -I/home/kleber.kruger/snipersim/sniper/include -I/home/kleber.kruger/sniper-benchmarks/tools/hooks -I/home/kleber.kruger/snipersim/sniper/include -I/home/kleber.kruger/sniper-benchmarks/tools/hooks -I/home/kleber.kruger/snipersim/sniper/include -fexceptions -DTEST_KWSYS_STAT_HAS_ST_MTIM /home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/tools/cmake/src/Source/kwsys/kwsysPlatformTestsCXX.cxx -o cmake_bootstrap_1573951.test
 ----------  file   -----------------------
 // Setup for tests that use result of stl namespace test.
 #if defined(KWSYS_STL_HAVE_STD)
@@ -7238,7 +7238,7 @@ int main()
 ------------------------------------------
 Test succeded
 Try: g++
-Line: g++ -std=gnu++98 -O3 -funroll-loops -fprefetch-loop-arrays -fpermissive -fno-exceptions -static-libgcc -Wl,--hash-style=both,--as-needed -DPARSEC_VERSION=2.1 -DENABLE_PARSEC_HOOKS -I/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/libs/hooks/inst/amd64-linux.gcc-sniper/include -I/home/kleber.kruger/sniper-benchmarks/tools/hooks -I/home/kleber.kruger/snipersim/sniper/include -fexceptions /home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/tools/cmake/src/Modules/TestForAnsiForScope.cxx -o cmake_bootstrap_1232769.test
+Line: g++ -std=gnu++98 -std=gnu++98 -std=gnu++98 -O3 -funroll-loops -fprefetch-loop-arrays -fpermissive -fno-exceptions -static-libgcc -Wl,--hash-style=both,--as-needed -DPARSEC_VERSION=2.1 -DENABLE_PARSEC_HOOKS -I/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/libs/hooks/inst/amd64-linux.gcc-sniper/include -I/home/kleber.kruger/sniper-benchmarks/tools/hooks -I/home/kleber.kruger/snipersim/sniper/include -I/home/kleber.kruger/sniper-benchmarks/tools/hooks -I/home/kleber.kruger/snipersim/sniper/include -I/home/kleber.kruger/sniper-benchmarks/tools/hooks -I/home/kleber.kruger/snipersim/sniper/include -fexceptions /home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/tools/cmake/src/Modules/TestForAnsiForScope.cxx -o cmake_bootstrap_1573951.test
 ----------  file   -----------------------
 int main(int, char*[])
 { 

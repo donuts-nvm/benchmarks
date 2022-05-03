@@ -181,7 +181,7 @@ g++: fatal error: no input files
 compilation terminated.
 configure:3950: $? = 1
 configure:3953: checking whether we are using the GNU C++ compiler
-configure:3982: g++ -c -O3 -funroll-loops -fprefetch-loop-arrays -fpermissive -fno-exceptions -static-libgcc -Wl,--hash-style=both,--as-needed -DPARSEC_VERSION=2.1 -DENABLE_PARSEC_HOOKS -I/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/libs/hooks/inst/amd64-linux.gcc-sniper/include -I/home/kleber.kruger/sniper-benchmarks/tools/hooks -I/home/kleber.kruger/snipersim/sniper/include  conftest.cpp >&5
+configure:3982: g++ -c -std=gnu++98 -std=gnu++98 -O3 -funroll-loops -fprefetch-loop-arrays -fpermissive -fno-exceptions -static-libgcc -Wl,--hash-style=both,--as-needed -DPARSEC_VERSION=2.1 -DENABLE_PARSEC_HOOKS -I/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/libs/hooks/inst/amd64-linux.gcc-sniper/include -I/home/kleber.kruger/sniper-benchmarks/tools/hooks -I/home/kleber.kruger/snipersim/sniper/include -I/home/kleber.kruger/sniper-benchmarks/tools/hooks -I/home/kleber.kruger/snipersim/sniper/include -I/home/kleber.kruger/sniper-benchmarks/tools/hooks -I/home/kleber.kruger/snipersim/sniper/include  conftest.cpp >&5
 configure:3988: $? = 0
 configure:4005: result: yes
 configure:4010: checking whether g++ accepts -g
@@ -204,7 +204,7 @@ configure:4653: checking whether to enable assembly
 configure:4705: result: yes, x86_64
 configure:4832: checking for dlopen
 configure:4888: gcc -o conftest -O3 -funroll-loops -fprefetch-loop-arrays -static-libgcc -Wl,--hash-style=both,--as-needed -DPARSEC_VERSION=2.1 -DENABLE_PARSEC_HOOKS -I/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/libs/hooks/inst/amd64-linux.gcc-sniper/include -I/home/kleber.kruger/sniper-benchmarks/tools/hooks -I/home/kleber.kruger/snipersim/sniper/include -DENABLE_PARMACS -Wall -Wmissing-prototypes -std=c99 -ffast-math -fno-strict-aliasing  -L/usr/lib64 -L/usr/lib -L/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/libs/hooks/inst/amd64-linux.gcc-sniper/lib -uparmacs_roi_end -uparmacs_roi_start -L/home/kleber.kruger/sniper-benchmarks/tools/hooks -lhooks_base -lrt -pthread conftest.c  -lhooks >&5
-/usr/bin/ld: /tmp/cc4DBBnr.o: in function `main':
+/usr/bin/ld: /tmp/cc49FEA5.o: in function `main':
 conftest.c:(.text.startup+0xb): undefined reference to `dlopen'
 collect2: error: ld returned 1 exit status
 configure:4894: $? = 1
@@ -323,7 +323,7 @@ ac_cv_env_CPPFLAGS_value=
 ac_cv_env_CPP_set=set
 ac_cv_env_CPP_value=/usr/bin/cpp
 ac_cv_env_CXXFLAGS_set=set
-ac_cv_env_CXXFLAGS_value='-O3 -funroll-loops -fprefetch-loop-arrays -fpermissive -fno-exceptions -static-libgcc -Wl,--hash-style=both,--as-needed -DPARSEC_VERSION=2.1 -DENABLE_PARSEC_HOOKS -I/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/libs/hooks/inst/amd64-linux.gcc-sniper/include -I/home/kleber.kruger/sniper-benchmarks/tools/hooks -I/home/kleber.kruger/snipersim/sniper/include'
+ac_cv_env_CXXFLAGS_value='-std=gnu++98 -std=gnu++98 -O3 -funroll-loops -fprefetch-loop-arrays -fpermissive -fno-exceptions -static-libgcc -Wl,--hash-style=both,--as-needed -DPARSEC_VERSION=2.1 -DENABLE_PARSEC_HOOKS -I/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/libs/hooks/inst/amd64-linux.gcc-sniper/include -I/home/kleber.kruger/sniper-benchmarks/tools/hooks -I/home/kleber.kruger/snipersim/sniper/include -I/home/kleber.kruger/sniper-benchmarks/tools/hooks -I/home/kleber.kruger/snipersim/sniper/include -I/home/kleber.kruger/sniper-benchmarks/tools/hooks -I/home/kleber.kruger/snipersim/sniper/include'
 ac_cv_env_CXX_set=set
 ac_cv_env_CXX_value=g++
 ac_cv_env_DRIGL_CFLAGS_set=
@@ -408,7 +408,7 @@ CFLAGS='-O3 -funroll-loops -fprefetch-loop-arrays -static-libgcc -Wl,--hash-styl
 CPP='/usr/bin/cpp'
 CPPFLAGS=''
 CXX='g++'
-CXXFLAGS='-O3 -funroll-loops -fprefetch-loop-arrays -fpermissive -fno-exceptions -static-libgcc -Wl,--hash-style=both,--as-needed -DPARSEC_VERSION=2.1 -DENABLE_PARSEC_HOOKS -I/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/libs/hooks/inst/amd64-linux.gcc-sniper/include -I/home/kleber.kruger/sniper-benchmarks/tools/hooks -I/home/kleber.kruger/snipersim/sniper/include -Wall -fno-strict-aliasing'
+CXXFLAGS='-std=gnu++98 -std=gnu++98 -O3 -funroll-loops -fprefetch-loop-arrays -fpermissive -fno-exceptions -static-libgcc -Wl,--hash-style=both,--as-needed -DPARSEC_VERSION=2.1 -DENABLE_PARSEC_HOOKS -I/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/libs/hooks/inst/amd64-linux.gcc-sniper/include -I/home/kleber.kruger/sniper-benchmarks/tools/hooks -I/home/kleber.kruger/snipersim/sniper/include -I/home/kleber.kruger/sniper-benchmarks/tools/hooks -I/home/kleber.kruger/snipersim/sniper/include -I/home/kleber.kruger/sniper-benchmarks/tools/hooks -I/home/kleber.kruger/snipersim/sniper/include -Wall -fno-strict-aliasing'
 DEFINES=' -D_POSIX_SOURCE -D_POSIX_C_SOURCE=199309L -D_BSD_SOURCE -D_SVID_SOURCE -D_GNU_SOURCE -DPTHREADS -DHAVE_POSIX_MEMALIGN -DUSE_XSHM'
 DEFS='-DPACKAGE_NAME=\"Mesa\" -DPACKAGE_TARNAME=\"mesa\" -DPACKAGE_VERSION=\"7.2.0\" -DPACKAGE_STRING=\"Mesa\ 7.2.0\" -DPACKAGE_BUGREPORT=\"https://bugs.freedesktop.org/enter_bug.cgi\?product=Mesa\"'
 DRIGL_CFLAGS=''

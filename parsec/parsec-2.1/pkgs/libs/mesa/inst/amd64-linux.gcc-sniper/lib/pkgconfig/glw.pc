@@ -1,0 +1,11 @@
+prefix=/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/./pkgs/libs/mesa/inst/amd64-linux.gcc-sniper
+exec_prefix=${prefix}
+libdir=/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/./pkgs/libs/mesa/inst/amd64-linux.gcc-sniper/lib
+includedir=/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/./pkgs/libs/mesa/inst/amd64-linux.gcc-sniper/include
+
+Name: glw
+Description: Mesa OpenGL widget library
+Requires: gl
+Version: 1.0.0
+Libs: -L${libdir} -lGLw
+Cflags: -I${includedir}

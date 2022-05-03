@@ -1,0 +1,58 @@
+[PARSEC] [========== PARSEC 2.1 BUILD LOGFILE ==========]
+
+[PARSEC] Build amd64-linux.gcc-sniper started on Tue May 3 15:05:57 UTC 2022.
+[PARSEC] Packages to build:  blackscholes bodytrack facesim ferret freqmine raytrace swaptions fluidanimate vips x264 canneal dedup streamcluster
+
+[PARSEC] [========== Building package blackscholes ==========]
+[PARSEC] [---------- Analyzing package blackscholes ----------]
+[PARSEC] Package blackscholes already exists, proceeding.
+
+[PARSEC] [========== Building package bodytrack ==========]
+[PARSEC] [---------- Analyzing package bodytrack ----------]
+[PARSEC] Package bodytrack already exists, proceeding.
+
+[PARSEC] [========== Building package facesim ==========]
+[PARSEC] [---------- Analyzing package facesim ----------]
+[PARSEC] Package facesim already exists, proceeding.
+
+[PARSEC] [========== Building package ferret ==========]
+[PARSEC] [---------- Analyzing package ferret ----------]
+[PARSEC] Package ferret already exists, proceeding.
+
+[PARSEC] [========== Building package freqmine ==========]
+[PARSEC] [---------- Analyzing package freqmine ----------]
+[PARSEC] Package freqmine already exists, proceeding.
+
+[PARSEC] [========== Building package raytrace ==========]
+[PARSEC] [---------- Analyzing package raytrace ----------]
+[PARSEC] Package raytrace already exists, proceeding.
+
+[PARSEC] [========== Building package swaptions ==========]
+[PARSEC] [---------- Analyzing package swaptions ----------]
+[PARSEC] Package swaptions already exists, proceeding.
+
+[PARSEC] [========== Building package fluidanimate ==========]
+[PARSEC] [---------- Analyzing package fluidanimate ----------]
+[PARSEC] Package fluidanimate already exists, proceeding.
+
+[PARSEC] [========== Building package vips ==========]
+[PARSEC] [---------- Analyzing package vips ----------]
+[PARSEC] Package vips already exists, proceeding.
+
+[PARSEC] [========== Building package x264 ==========]
+[PARSEC] [---------- Analyzing package x264 ----------]
+[PARSEC] Package x264 already exists, proceeding.
+
+[PARSEC] [========== Building package canneal ==========]
+[PARSEC] [---------- Analyzing package canneal ----------]
+[PARSEC] canneal depends on: hooks
+[PARSEC] [---------- Analyzing package hooks ----------]
+[PARSEC] Package hooks already exists, proceeding.
+[PARSEC] [---------- Building package canneal ----------]
+[PARSEC] Removing old build directory.
+[PARSEC] Copying source code of package canneal.
+[PARSEC] Running 'env version=pthreads /usr/bin/make':
+make[2]: Entering directory '/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/kernels/canneal/obj/amd64-linux.gcc-sniper'
+g++ -std=gnu++98 -std=gnu++98 -O3 -funroll-loops -fprefetch-loop-arrays -fpermissive -fno-exceptions -static-libgcc -Wl,--hash-style=both,--as-needed -DPARSEC_VERSION=2.1 -DENABLE_PARSEC_HOOKS -I/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/libs/hooks/inst/amd64-linux.gcc-sniper/include -I/home/kleber.kruger/sniper-benchmarks/tools/hooks -I/home/kleber.kruger/snipersim/sniper/include -I/home/kleber.kruger/sniper-benchmarks/tools/hooks -I/home/kleber.kruger/snipersim/sniper/include -I/home/kleber.kruger/sniper-benchmarks/tools/hooks -I/home/kleber.kruger/snipersim/sniper/include -DENABLE_THREADS -pthread annealer_thread.cpp -c -o annealer_thread.o
+make[2]: Leaving directory '/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/kernels/canneal/obj/amd64-linux.gcc-sniper'
+[PARSEC] Error: 'env version=pthreads /usr/bin/make' failed.

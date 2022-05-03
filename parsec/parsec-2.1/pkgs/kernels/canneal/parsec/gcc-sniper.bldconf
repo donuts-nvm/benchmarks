@@ -3,3 +3,5 @@
 # gcc-sniper.bldconf - configuration file for PARSEC
 
 source ${PARSECDIR}/pkgs/kernels/canneal/parsec/gcc-hooks.bldconf
+
+CXXFLAGS="-std=gnu++17 ${CXXFLAGS} ${HOOKS_CXXFLAGS}"
