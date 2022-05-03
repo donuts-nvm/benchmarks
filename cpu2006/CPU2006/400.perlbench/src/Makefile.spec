@@ -17,7 +17,7 @@ CONESTEP=
 BENCH_FLAGS      = -DPERL_CORE
 CC               = /usr/bin/gcc
 COPTIMIZE        = -O3 -fno-strict-aliasing
-CPORTABILITY     = -DSPEC_CPU_LINUX_X64
+CPORTABILITY     = -DSPEC_CPU_LINUX_X64 -std=gnu90
 CXX              = /usr/bin/g++
 CXXOPTIMIZE      = -O3 -fno-strict-aliasing
 FC               = /usr/bin/gfortran

@@ -1,12 +1,14 @@
 # sniper-benchmarks
 
-Benchmarks for Sniper Simulator
+Benchmarks for Sniper Simulator:
 
 * SPLASH-2
 * PARSEC 2.1
 * SPEC CPU2006
 * SPEC CPU2006 - Pinballs
 * SPEC CPU2017
+
+- Tested on Ubuntu 20.04 LTS and gcc-9.4.0
 
 
 Instalation Steps:

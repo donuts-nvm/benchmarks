@@ -45,7 +45,7 @@ BENCH_CXXFLAGS   = -Iinclude -DBOOST_DISABLE_THREADS -Ddeal_II_dimension=3
 CC               = /usr/bin/gcc
 COPTIMIZE        = -O3 -fno-strict-aliasing
 CXX              = /usr/bin/g++
-CXXOPTIMIZE      = -O3 -fno-strict-aliasing
+CXXOPTIMIZE      = -O3 -fno-strict-aliasing -fpermissive
 FC               = /usr/bin/gfortran
 FOPTIMIZE        = -O3 -fno-strict-aliasing
 FPBASE           = yes

@@ -36,7 +36,7 @@ FC               = /usr/bin/gfortran
 FOPTIMIZE        = -O3 -fno-strict-aliasing
 FPBASE           = yes
 OS               = unix
-PORTABILITY      = -DSPEC_CPU_LP64
+PORTABILITY      = -DSPEC_CPU_LP64 -std=legacy
 absolutely_no_locking = 0
 abstol           = 1e-05
 action           = validate

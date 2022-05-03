@@ -22,7 +22,7 @@ CXXONESTEP=
 
 CC               = /usr/bin/gcc
 COPTIMIZE        = -O3 -fno-strict-aliasing
-CXX              = /usr/bin/g++
+CXX              = /usr/bin/g++ -std=gnu++98
 CXXOPTIMIZE      = -O3 -fno-strict-aliasing
 FC               = /usr/bin/gfortran
 FOPTIMIZE        = -O3 -fno-strict-aliasing
