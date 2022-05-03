@@ -1,0 +1,50 @@
+hmmsearch - search a sequence database with a profile HMM
+HMMER 2.3 (May 2003)
+Copyright (C) 1992-2003 HHMI/Washington University School of Medicine
+Freely distributed under the GNU General Public License (GPL)
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+HMM file:                   nph3.hmm [NPH3]
+Sequence database:          swiss41
+per-sequence score cutoff:  [none]
+per-domain score cutoff:    [none]
+per-sequence Eval cutoff:   <= 10        
+per-domain Eval cutoff:     [none]
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query HMM:   NPH3
+Accession:   PF03000
+Description: NPH3 family
+  [HMM has been calibrated; E-values are empirical estimates]
+
+Alignments of top-scoring domains:
+A180_MOUSE: domain 1 of 1, from 161 to 357: score -145.5, E = 9.2
+                   *->kDWWvEDLceLsiDlFkRVIsaiksrGt.lksevigeaLlaYakKSL
+                      ++ +++++++L   +  +++++   + ++l + vi +a +  + K  
+  A180_MOUSE   161    PEKLLKSMPILQGQI--DALLEFDVHPNeLTNGVINAAFML-LFK-- 202  
+
+                   QIvrLpglskss..sessdssStekkgdvCLmealsekeqRdlvEtivsL
+                         +l+k     + +++                     +l+E   + 
+  A180_MOUSE   203 ------DLIKLFacYNDGVI---------------------NLLEKFFEM 225  
+
+                   LPsq.kgsvssvpcsFLfkLLRaaiflgasetcRedLEkRIGeqLeqAtl
+                      q k++   +  +FL+++ R++ fl+++e +            ++  +
+  A180_MOUSE   226 KKGQcKDALE-IYKRFLTRMTRVSEFLKVAEQVG----------IDKGDI 264  
+
+                   dDL.LIPsnfsnteeTlYDVDlVqRIlkeFlendkneesevsrdedgees
+                    DL++ Ps             ++   l++ l++   e+            
+  A180_MOUSE   265 PDLtQAPS-------------SLMETLEQHLNT--LEG------------ 287  
+
+                   eedavdegeliGaiydfegaggp..sqssllsV.......aKLiDsYLaE
+                       +++g     ++++ ga +p +++s+++ V+++++++aK+iD     
+  A180_MOUSE   288 ----KKPG-----NNEGSGAPSPlsKSSPATTVtspnstpAKTID----- 323  
+
+                   iArDpaNLplsKFiaLAEllPesARdsdDGLYRAIDifLKeHPnlsesEK
+                     ++p   p+  F   ++++P s+               K +++l++   
+  A180_MOUSE   324 --TSP---PVDIFATASAAAPVSSA--------------KPSSDLLD--- 351  
+
+                   krlCrlMDCrKLSqEAc<-*
+                              L ++ +   
+  A180_MOUSE   352 -----------LQPDFS    357  
+
+
+Total sequences searched: 122564

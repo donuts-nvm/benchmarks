@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<!DOCTYPE flagsdescription SYSTEM
+       "http://www.spec.org/dtd/cpuflags1.dtd">
+
+<!-- This file defines flags that appear in the sources for 416.gamess.
+
+  Copyright (C) 2005-2006 Standard Performance Evaluation Corporation
+
+  $Revision: 5344 $
+  $Date: 2007-06-04 16:49:13 -0400 (Mon, 04 Jun 2007) $
+-->
+<flagsdescription>
+
+<!-- Normal flags file should suggest a name for themselves -->
+<filename>416.gamess.flags</filename>
+
+<title>416.gamess Flags</title>
+
+<header>
+<![CDATA[
+<p>These are flags that appear in the benchmark sources, categorized as to
+whether they are portability candidates, mandatory, or forbidden.
+</p>
+]]>
+</header>
+
+<flag name="DSPEC_CPU_NO_HOLLERITH" class="mandatory">
+SPEC_CPU_NO_HOLLERITH is set by the SPEC framework. It is not allowed to undefine this macro.
+</flag>
+
+
+</flagsdescription>

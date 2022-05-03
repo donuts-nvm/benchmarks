@@ -1,0 +1,628 @@
+= white
+
+=100 H8
+
+= white
+
+=110 H8
+
+= white
+
+=130 H9
+
+= white
+
+=140 PASS
+
+= white
+
+=150 E3
+
+= white
+
+=160 K7
+
+= white
+
+=170 H5
+
+= white
+
+=180 K1
+
+= white
+
+=190 A6
+
+= white
+
+=200 A7
+
+= white
+
+=210 G12
+
+= white
+
+=220 D12
+
+= white
+
+=230 K3
+
+= white
+
+=240 K3
+
+= white
+
+=250 B7
+
+= white
+
+=260 B5
+
+= white
+
+=270 K1
+
+= white
+
+=280 C7
+
+= white
+
+=290 K13
+
+= white
+
+=300 K13
+
+= white
+
+=310 H12
+
+= white
+
+=320 D7
+
+= white
+
+=330 C4
+
+= white
+
+=340 M4
+
+= white
+
+=350 E3
+
+= white
+
+=360 H11
+
+= white
+
+=370 F13
+
+= white
+
+=380 F13
+
+= white
+
+=390 K6
+
+= white
+
+=400 H11
+
+= white
+
+=410 H2
+
+= white
+
+=420 F10
+
+= white
+
+=430 A4
+
+= white
+
+=440 N5
+
+= white
+
+=450 E6
+
+= white
+
+=460 K11
+
+= white
+
+=470 K11
+
+= white
+
+=480 D6
+
+= white
+
+=490 A7
+
+= white
+
+=500 E7
+
+= white
+
+=510 M7
+
+= white
+
+=520 G6
+
+= white
+
+=530 K4
+
+= white
+
+=540 J9
+
+= white
+
+=550 E3
+
+= white
+
+=560 E12
+
+= white
+
+=570 L10
+
+= white
+
+=580 J4
+
+= white
+
+=590 E8
+
+= white
+
+=600 E11
+
+= white
+
+=610 D4
+
+= white
+
+=620 J4
+
+= white
+
+=630 G2
+
+= white
+
+=640 G10
+
+= white
+
+=650 K7
+
+= white
+
+=660 M4
+
+= white
+
+=670 G1
+
+= white
+
+=680 G13
+
+= white
+
+=690 G8
+
+= white
+
+=700 F8
+
+= white
+
+=710 D5
+
+= white
+
+=720 G6
+
+= white
+
+=730 E5
+
+= black
+
+=740 H3
+
+= white
+
+=750 J12
+
+= white
+
+=760 H11
+
+= white
+
+=770 H10
+
+= white
+
+=780 H3
+
+= white
+
+=790 L8
+
+= white
+
+=800 F9
+
+= white
+
+=810 D7
+
+= white
+
+=820 A6
+
+= white
+
+=830 J10
+
+= white
+
+=840 F12
+
+= white
+
+=850 D12
+
+= white
+
+=860 E3
+
+= white
+
+=870 F5
+
+= white
+
+=880 J10
+
+= white
+
+=890 J10
+
+= white
+
+=900 D2
+
+= white
+
+=910 H13
+
+= white
+
+=920 K10
+
+= white
+
+=930 K10
+
+= white
+
+=940 G1
+
+= white
+
+=950 F13
+
+= white
+
+=960 F4
+
+= white
+
+=970 C13
+
+= white
+
+=980 H2
+
+= white
+
+=990 A8
+
+= white
+
+=1000 F11
+
+= white
+
+=1010 K1
+
+= white
+
+=1020 G3
+
+= white
+
+=1030 G3
+
+= white
+
+=1040 A8
+
+= white
+
+=1050 C4
+
+= white
+
+=1060 D13
+
+= white
+
+=1070 K10
+
+= white
+
+=1080 K2
+
+= white
+
+=1090 G12
+
+= white
+
+=1100 F11
+
+= white
+
+=1110 J4
+
+= white
+
+=1120 N10
+
+= white
+
+=1130 N8
+
+= white
+
+=1140 PASS
+
+= white
+
+=1150 M7
+
+= white
+
+=1160 K7
+
+= white
+
+=1170 C6
+
+= white
+
+=1180 K11
+
+= white
+
+=1190 F9
+
+= white
+
+=1200 J5
+
+= white
+
+=1210 E5
+
+= white
+
+=1220 M7
+
+= white
+
+=1240 C2
+
+= white
+
+=1250 C3
+
+= white
+
+=1260 B7
+
+= white
+
+=1270 A7
+
+= white
+
+=1280 A7
+
+= white
+
+=1290 F2
+
+= white
+
+=1300 F2
+
+= white
+
+=1310 F2
+
+= white
+
+=1320 E13
+
+= white
+
+=1340 B6
+
+= white
+
+=1350 K6
+
+= white
+
+=1360 F12
+
+= white
+
+=1370 C9
+
+= white
+
+=1380 H8
+
+= white
+
+=1390 K9
+
+= white
+
+=1400 K10
+
+= white
+
+=1410 H2
+
+= white
+
+=1420 J4
+
+= white
+
+=1430 G12
+
+= white
+
+=1440 E3
+
+= white
+
+=1450 G2
+
+= white
+
+=1460 PASS
+
+= white
+
+=1470 L10
+
+= white
+
+=1480 F6
+
+= white
+
+=1490 J10
+
+= white
+
+=1500 A8
+
+= white
+
+=1510 L5
+
+= white
+
+=1520 C12
+
+= white
+
+=1530 A9
+
+= white
+
+=1540 M10
+
+= white
+
+=1550 L11
+
+= white
+
+=1560 H7
+
+= white
+
+=1570 E2
+
+= white
+
+=1580 C8
+
+= white
+
+=1590 F1
+
+= white
+
+=1600 F6
+
+= white
+
+=1610 B3
+
+= white
+
+=1620 G9
+
+= black
+
+=1621 0
+
+= white
+
+=1630 L10
+
+= white
+
+=1640 M7
+
+= white
+
+=1650 M7
+
+= white
+
+=1660 K11
+
+= white
+
+=1670 K6
+
+= white
+
+=1680 K13
+

@@ -1,0 +1,18 @@
+hmmcalibrate -- calibrate HMM search statistics
+HMMER 2.3 (May 2003)
+Copyright (C) 1992-2003 HHMI/Washington University School of Medicine
+Freely distributed under the GNU General Public License (GPL)
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+HMM file:                 leng100.hmm
+Length distribution mean: 425
+Length distribution s.d.: 300
+Number of samples:        85000
+random seed:              0
+histogram(s) saved to:    [not saved]
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+HMM    : COQ7
+mu     :   -67.923531
+lambda :     0.231466
+max    :   -26.507999
+//

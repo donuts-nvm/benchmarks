@@ -1,0 +1,118 @@
+                                   465.tonto
+                       SPEC CPU2006 Benchmark Description
+
+Benchmark Name
+
+   465.tonto
+
+   --------------------------------------------------------------------------
+
+Benchmark Author
+
+   Daniel J. Grimwood <reaper [at] theochem.uwa.edu.au>
+
+   --------------------------------------------------------------------------
+
+Benchmark Program General Category
+
+   Quantum Crystallography
+
+   --------------------------------------------------------------------------
+
+Benchmark Description
+
+   Tonto^[1]1 is an open source quantum chemistry package, designed by Dylan
+   Jayatilaka and Daniel J. Grimwood. Objectives include simplicity and
+   portability; aspects not seen in many quantum chemistry codes. The code is
+   easily extendable by chemists with limited programming skills and time,
+   and is easy to understand and use^[2]2.
+
+   Tonto is written within an object oriented design, in Fortran 95. It uses
+   derived types and modules to represent classes. Classes range from
+   integers and text files, through to atoms, spacegroups and molecules.
+   There is a "self" variable in most routines, which should be familiar from
+   many OO languages. Tonto uses dynamic memory instead of common blocks, and
+   uses array operations where possible.
+
+   The profiles of Tonto calculations are typical of many ab initio quantum
+   chemistry packages. That is, a large portion is dedicated to the
+   evaluation of integrals between products of Gaussian basis functions.
+
+   The SPEC reference calculation is in the field of quantum crystallography.
+   It places a constraint on a molecular Hartree-Fock wavefunction
+   calculation to better match experimental X-ray diffraction data^[3]3. It
+   is expected that other similar properties calculated from the constrained
+   wavefunction should also agree better with experiment.
+
+   --------------------------------------------------------------------------
+
+Input Description
+
+   The input file contains the crystal structure, atom positions, and basis
+   functions, and experimental X-ray diffraction data. It then gives
+   calculation parameters, and does the calculation. The crystal structure,
+   atom positions, and X-ray data are from the literature^[4]4.
+
+   --------------------------------------------------------------------------
+
+Output Description
+
+   The main output file is regularly updated to show how far the calculation
+   is from the final answer. Once the final model wavefunction is obtained,
+   the X-ray diffraction data calculated from it are printed out together
+   with the experimental data and compared. The chi^2 of one means the
+   calculated and experimental data sets agree to within experimental
+   accuracy.
+
+   The coefficients for the wavefunction are stored in the file
+   "n2o4.molecular_orbitals,restricted,ascii". Although not done so in the
+   465.tonto reference calculation, this data can then be used to calculate
+   other properties of the system, such as the Electron Localisation Function
+   or the electrostatic potential^[5]5.
+
+   --------------------------------------------------------------------------
+
+Programming Language
+
+   Fortran 95
+
+   --------------------------------------------------------------------------
+
+Known portability issues
+
+   Tonto makes extensive use of new features added to the Fortran language
+   with the Fortran 90/95 standards (such as generic interfaces and vector
+   subscripts). Some older compilers may not have complete support for these
+   features; therefore, users may wish to obtain the most recent update of
+   their compiler before trying Tonto.
+
+   --------------------------------------------------------------------------
+
+References
+
+     * 1 Tonto home page - [6]http://www.theochem.uwa.edu.au/tonto/
+     * 2 D. Jayatilaka and D. J. Grimwood, [7]Computational Science - ICCS
+       2003, 2660, 142-151, (2003)
+     * 3 D. Jayatilaka and D. J. Grimwood, [8]Acta Cryst., A57, 76-86, (2001)
+     * 4 M. Messerschmidt, A. Wagner, M. W. Wong and P. Luger, [9]J. Am.
+       Chem. Soc., 124(5), 732-733, (2002)
+     * 5 D. J. Grimwood, I. Bytheway and D. Jayatilaka, [10]J. Comp. Chem.,
+       24(4), 470-483, (2003)
+
+   --------------------------------------------------------------------------
+
+   Last updated: $Date: 2011-08-16 18:23:17 -0400 (Tue, 16 Aug 2011) $
+
+References
+
+   Visible links
+   1. 465.tonto.html#ref1
+   2. 465.tonto.html#ref2
+   3. 465.tonto.html#ref3
+   4. 465.tonto.html#ref4
+   5. 465.tonto.html#ref5
+   6. http://www.theochem.uwa.edu.au/tonto/
+   7. http://www.springerlink.com/content/12ru3b2712y2wex3/
+   8. http://scripts.iucr.org/cgi-bin/paper?S0108767300013155
+   9. http://pubs.acs.org/doi/abs/10.1021/ja011802c
+  10. http://doi.wiley.com/10.1002/jcc.10238

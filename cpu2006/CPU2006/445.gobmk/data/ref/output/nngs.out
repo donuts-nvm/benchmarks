@@ -1,0 +1,642 @@
+= black
+
+=100 K2
+
+= black
+
+=110 L2
+
+= black
+
+=120 R5
+
+= black
+
+=130 M2
+
+= black
+
+=140 O2
+
+= black
+
+=150 O11
+
+= black
+
+=170 N10
+
+= black
+
+=180 K9
+
+= black
+
+=190 M13
+
+= black
+
+=200 O14
+
+= black
+
+=210 P11
+
+= black
+
+=220 H14
+
+= black
+
+=230 K16
+
+= black
+
+=240 T6
+
+= black
+
+=250 S10
+
+= black
+
+=260 M17
+
+= black
+
+=270 M7
+
+= black
+
+=280 M7
+
+= black
+
+=290 D12
+
+= black
+
+=300 C13
+
+= black
+
+=310 B9
+
+= black
+
+=320 D17
+
+= black
+
+=330 D15
+
+= black
+
+=340 Q7
+
+= black
+
+=370 Q1
+
+= black
+
+=371 1 Q1
+
+= black
+
+=380 M3
+
+= black
+
+=390 N17
+
+= black
+
+=400 L12
+
+= black
+
+=410 J9
+
+= black
+
+=420 E4
+
+= black
+
+=430 C16
+
+= black
+
+=440 O2
+
+= black
+
+=480 G14
+
+= black
+
+=490 J18
+
+= black
+
+=500 J17
+
+= black
+
+=510 H14
+
+= black
+
+=530 M4
+
+= black
+
+=540 K11
+
+= black
+
+=550 P14
+
+= black
+
+=560 E11
+
+= black
+
+=570 G1
+
+= black
+
+=590 G4
+
+= black
+
+=600 H6
+
+= black
+
+=610 J8
+
+= white
+
+=620 P16
+
+= white
+
+=630 D6
+
+= white
+
+=640 D6
+
+= white
+
+=660 F4
+
+= white
+
+=680 P13
+
+= white
+
+=690 N13
+
+= white
+
+=700 K17
+
+= white
+
+=710 B12
+
+= white
+
+=720 A11
+
+= white
+
+=770 G9
+
+= white
+
+=800 O15
+
+= white
+
+=810 O15
+
+= white
+
+=820 L9
+
+= white
+
+=850 H15
+
+= white
+
+=860 N6
+
+= white
+
+=870 D19
+
+= white
+
+=875 PASS
+
+= white
+
+=880 H6
+
+= white
+
+=890 D1
+
+= white
+
+=900 Q15
+
+= white
+
+=910 T17
+
+= white
+
+=920 R5
+
+= white
+
+=930 O3
+
+= white
+
+=940 O3
+
+= white
+
+=950 F1
+
+= white
+
+=960 R16
+
+= white
+
+=970 L3
+
+= white
+
+=980 L3
+
+= white
+
+=990 L3
+
+= white
+
+=1000 K6
+
+= white
+
+=1010 Q16
+
+= white
+
+=1020 P2
+
+= white
+
+=1030 L18
+
+= white
+
+=1040 L17
+
+= white
+
+=1050 H11
+
+= white
+
+=1060 Q2
+
+= white
+
+=1070 Q2
+
+= white
+
+=1080 Q2
+
+= white
+
+=1090 J12
+
+= white
+
+=1100 F2
+
+= white
+
+=1110 J16
+
+= white
+
+=1120 D6
+
+= white
+
+=1130 C8
+
+= white
+
+=1140 1 A11
+
+= white
+
+=1150 H9
+
+= white
+
+=1160 A8
+
+= white
+
+=1170 K8
+
+= white
+
+=1180 L8
+
+= white
+
+=1190 1 PASS
+
+= white
+
+=1200 D13
+
+= white
+
+=1210 G3
+
+= white
+
+=1220 N16
+
+= white
+
+=1230 Q14
+
+= white
+
+=1240 J15
+
+= white
+
+=1250 K14
+
+= white
+
+=1260 B14
+
+= white
+
+=1270 B14
+
+= white
+
+=1280 J12
+
+= white
+
+=1300 T4
+
+= white
+
+=1310 Q15
+
+= white
+
+=1320 R6
+
+= black
+
+=1420 D12
+
+= black
+
+=1430 D12
+
+= black
+
+=1440 H10
+
+= white
+
+=1450 M8
+
+= white
+
+=1480 B1
+
+= white
+
+=1500 R16
+
+= white
+
+=1510 M16
+
+= white
+
+=1520 F14
+
+= white
+
+=1540 L9
+
+= white
+
+=1550 M8
+
+= white
+
+=1560 M8
+
+= white
+
+=1570 O13
+
+= black
+
+=1580 R14
+
+= black
+
+=1590 R14
+
+= black
+
+=1600 R14
+
+= black
+
+=1620 D2
+
+= black
+
+=1630 M1
+
+= black
+
+=1640 D1
+
+= black
+
+=1660 P14
+
+= black
+
+=1670 A15
+
+= black
+
+=1680 B8
+
+= black
+
+=1690 D8
+
+= black
+
+=1700 G12
+
+= black
+
+=1740 O2
+
+= black
+
+=1750 J9
+
+= black
+
+=1760 N7
+
+= black
+
+=1770 P1
+
+= black
+
+=1780 N1
+
+= black
+
+=1790 Q14
+
+= black
+
+=1800 Q14
+
+= black
+
+=1810 Q14
+
+= black
+
+=1830 J13
+
+= black
+
+=1840 K7
+
+= black
+
+=1860 L17
+
+= black
+
+=1870 L8
+
+= black
+
+=1880 L8
+
+= black
+
+=1890 H16
+
+= black
+
+=1900 F19
+
+= black
+
+=1910 E18
+
+= black
+
+=1920 J4
+
+= white
+
+=1930 P14
+
+= white
+
+=1940 P14
+
+= white
+
+=1950 K16
+
+= white
+
+=1955 D3
+
+= white
+
+=1960 R9
+
+= white
+
+=1970 F15
+
+= white
+
+=1980 F15
+
+= white
+
+=2000 H14
+
+= white
+
+=2010 H14
+
+= white
+
+=2020 H14
+
+= black
+
+=2030 G6
+
+= black
+
+=2040 E5
+
+= black
+
+=2050 D1
+
+= black
+
+=2060 C4
+
+=10002 0
+

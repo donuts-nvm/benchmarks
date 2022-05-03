@@ -1,0 +1,128 @@
+                                 483.xalancbmk
+                       SPEC CPU2006 Benchmark Description
+
+Benchmark Name
+
+   483.xalancbmk
+
+   --------------------------------------------------------------------------
+
+Benchmark Author
+
+   IBM Corporation, Apache Inc, plus modifications for SPEC purposes by
+   Christopher Cambly, Andrew Godbout, Neil Graham, Sasha Kasapinovic, Jim
+   McInnes, June Ng, Michael Wong
+
+      Primary contact: michaelw [at] ca.ibm.com
+
+   This product includes software developed by the Apache Software Foundation
+   ([1]http://www.apache.org/).
+
+   --------------------------------------------------------------------------
+
+Benchmark Program General Category
+
+   XSLT processor for transforming XML documents into HTML, text, or other
+   XML document types
+
+   --------------------------------------------------------------------------
+
+Benchmark Description
+
+   This program is a modified version of Xalan-C++, an XSLT processor written
+   in a portable subset of C++ .
+
+   Xalan-C++ version 1.8 is a robust implementation of the W3C
+   Recommendations for XSL Transformations (XSLT) and the XML Path Language
+   (XPath). It works with a compatible release of the Xerces-C++ XML parser:
+   Xerces-C++ version 2.5.0. Xalan-C++ (named after a rare musical
+   instrument) implements the W3C Recommendation 16 November 1999 XSL
+   Transformations (XSLT) Version 1.0 and the XML Path Language (XPath)
+   Version 1.0. XSLT is the first part of the XSL stylesheet language for
+   XML. It includes the XSL Transformation vocabulary and XPath, a language
+   for addressing parts of XML documents.
+
+   You use the XSLT language to compose XSL stylesheets. An XSL stylesheet
+   contains instructions for transforming XML documents from one document
+   type to another document type (XML, HTML, or other). In structural terms,
+   an XSL stylesheet specifies the transformation of one tree of nodes (the
+   XML input) into another tree of nodes (the output or transformation
+   result).
+
+   Modifications for SPEC benchmarking purposes include:
+      1. combining code in a way that makes it a standalone executable
+      2. removing compiler incompatibilities and improving standard
+   conformance
+      3. change the output to display intermediate values
+      4. removing large part of unexecuted code that causes differences
+   between platforms
+      5. finding the test data and contributing fixes to the code to read the
+   large 100 MB test data
+      6. Moving all the include locations to fit better into the SPEC
+   harness.
+
+   --------------------------------------------------------------------------
+
+Input Description
+
+   An XML document and an XSL Stylesheet.
+
+   --------------------------------------------------------------------------
+
+Output Description
+
+   An HTML document
+
+   --------------------------------------------------------------------------
+
+Programming Language
+
+   C++
+
+   --------------------------------------------------------------------------
+
+Known portability issues
+
+   None
+
+   --------------------------------------------------------------------------
+
+Portability issues fixed subsequent to the release of SPEC CPU2006 V1.0
+
+   New with CPU2006 V1.1:
+
+     * Added explicit inclusion of cstring header file.
+     * Added multiple portability changes for use with the PGI C++ compiler
+       on Windows.
+     * Added multiple portability changes for use with the ParallelNavi
+       compiler on Solaris. To use, you'll need to set -DSPEC_CPU_PARANAVI
+
+   --------------------------------------------------------------------------
+
+References
+
+     * [2]http://xml.apache.org/xalan-c/
+     * Xalan-C++ fully implements the [3]W3C Recommendation 16 November 1999
+       XSL Transformations (XSLT) Version 1.0.
+     * Xalan-C++ incorporates the [4]XML Path Language (XPath) Version 1.0.
+     * Xalan-C++ uses [5]Xerces-C++ to parse XML documents and XSL
+       stylesheets.
+     * Along with a complete API for performing transformations in your C++
+       applications, Xalan-C++ provides a [6]command line utility for
+       convenient file-to-file transformations.
+     * Xalan-C++ supports C++ [7]extension functions.
+
+   --------------------------------------------------------------------------
+
+   Last updated: $Date: 2011-08-16 18:23:17 -0400 (Tue, 16 Aug 2011) $
+
+References
+
+   Visible links
+   1. http://www.apache.org/
+   2. http://xml.apache.org/xalan-c/
+   3. http://www.w3.org/TR/xslt
+   4. http://www.w3.org/TR/xpath/
+   5. http://xerces.apache.org/xerces-c/index.html
+   6. http://xml.apache.org/xalan-c/commandline.html
+   7. http://xml.apache.org/xalan-c/extensions.html

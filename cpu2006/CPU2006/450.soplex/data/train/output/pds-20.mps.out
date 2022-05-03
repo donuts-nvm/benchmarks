@@ -1,0 +1,36 @@
+Delta   =     1.000000e-06
+Epsilon =     1.000000e-17
+Leaving algorithm
+Column representation
+Forest-Tomlin update
+Steep pricing
+Fast ratiotest
+No scaling
+General simplifier
+Weight starter
+loading LP file pds-20.mps
+LP has 33874	rows and
+       105728	columns
+solving LP
+SPxRem1SM:	removed 624 row(s)
+SPxRem1SM:	removed 548 column(s)
+SPxRem1SM:	removed 204 row(s)
+SPxRem1SM:	removed 132 column(s)
+SPxRem1SM:	removed 99 row(s)
+SPxRem1SM:	removed 99 column(s)
+SPxAggregateSM:	removed 5585 row(s) and column(s)
+SPxAggregateSM:	delta = -2.814000e+08
+SPxRedundantSM: removed 484 column(s)
+SPxRedundantSM:	removed 176 row(s)
+SPxAggregateSM:	removed 14937 row(s) and column(s)
+SPxAggregateSM:	delta = -2.814000e+08
+SPxAggregateSM:	removed 540 row(s) and column(s)
+SPxAggregateSM:	delta = -2.814000e+08
+SPxAggregateSM:	removed 71 row(s) and column(s)
+SPxAggregateSM:	delta = -2.814000e+08
+removed 22236 rows
+removed 22396 columns
+Finished solving (status=-6)
+aborted due to iteration limit
+solution value is: 2.3475862e+10
+

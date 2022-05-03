@@ -1,0 +1,18 @@
+hmmcalibrate -- calibrate HMM search statistics
+HMMER 2.3 (May 2003)
+Copyright (C) 1992-2003 HHMI/Washington University School of Medicine
+Freely distributed under the GNU General Public License (GPL)
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+HMM file:                 retro.hmm
+Length distribution mean: 500
+Length distribution s.d.: 350
+Number of samples:        500000
+random seed:              0
+histogram(s) saved to:    [not saved]
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+HMM    : Retrotrans_gag
+mu     :   -48.936745
+lambda :     0.235556
+max    :    -8.243000
+//
