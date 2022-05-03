@@ -1,0 +1,329 @@
+closures.o: \
+ /home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/./pkgs/libs/glib/src/tests/refcount/closures.c \
+ /usr/include/stdc-predef.h \
+ /home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/./pkgs/libs/glib/src/glib/glib-object.h \
+ /home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/./pkgs/libs/glib/src/gobject/gboxed.h \
+ /home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/./pkgs/libs/glib/src/gobject/gtype.h \
+ /home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/./pkgs/libs/glib/src/glib/glib.h \
+ /home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/./pkgs/libs/glib/src/glib/galloca.h \
+ /home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/./pkgs/libs/glib/src/glib/gtypes.h \
+ ../../glibconfig.h \
+ /home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/./pkgs/libs/glib/src/glib/gmacros.h \
+ /usr/lib/gcc/x86_64-linux-gnu/9/include/stddef.h \
+ /usr/lib/gcc/x86_64-linux-gnu/9/include/limits.h \
+ /usr/lib/gcc/x86_64-linux-gnu/9/include/syslimits.h \
+ /usr/include/limits.h \
+ /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
+ /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \
+ /usr/include/x86_64-linux-gnu/bits/wordsize.h \
+ /usr/include/x86_64-linux-gnu/bits/long-double.h \
+ /usr/include/x86_64-linux-gnu/gnu/stubs.h \
+ /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
+ /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
+ /usr/include/x86_64-linux-gnu/bits/local_lim.h \
+ /usr/include/linux/limits.h \
+ /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
+ /usr/lib/gcc/x86_64-linux-gnu/9/include/float.h \
+ /home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/./pkgs/libs/glib/src/glib/garray.h \
+ /home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/./pkgs/libs/glib/src/glib/gasyncqueue.h \
+ /home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/./pkgs/libs/glib/src/glib/gthread.h \
+ /home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/./pkgs/libs/glib/src/glib/gerror.h \
+ /home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/./pkgs/libs/glib/src/glib/gquark.h \
+ /home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/./pkgs/libs/glib/src/glib/gatomic.h \
+ /home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/./pkgs/libs/glib/src/glib/gbacktrace.h \
+ /home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/./pkgs/libs/glib/src/glib/gbase64.h \
+ /home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/./pkgs/libs/glib/src/glib/gbookmarkfile.h \
+ /usr/include/time.h /usr/include/x86_64-linux-gnu/bits/time.h \
+ /usr/include/x86_64-linux-gnu/bits/types.h \
+ /usr/include/x86_64-linux-gnu/bits/timesize.h \
+ /usr/include/x86_64-linux-gnu/bits/typesizes.h \
+ /usr/include/x86_64-linux-gnu/bits/time64.h \
+ /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h \
+ /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
+ /usr/include/x86_64-linux-gnu/bits/endian.h \
+ /usr/include/x86_64-linux-gnu/bits/endianness.h \
+ /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/timer_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
+ /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
+ /home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/./pkgs/libs/glib/src/glib/gcache.h \
+ /home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/./pkgs/libs/glib/src/glib/glist.h \
+ /home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/./pkgs/libs/glib/src/glib/gmem.h \
+ /home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/./pkgs/libs/glib/src/glib/gslice.h \
+ /home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/./pkgs/libs/glib/src/glib/gcompletion.h \
+ /home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/./pkgs/libs/glib/src/glib/gconvert.h \
+ /home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/./pkgs/libs/glib/src/glib/gdataset.h \
+ /home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/./pkgs/libs/glib/src/glib/gdate.h \
+ /home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/./pkgs/libs/glib/src/glib/gdir.h \
+ /home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/./pkgs/libs/glib/src/glib/gfileutils.h \
+ /home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/./pkgs/libs/glib/src/glib/ghash.h \
+ /home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/./pkgs/libs/glib/src/glib/ghook.h \
+ /home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/./pkgs/libs/glib/src/glib/giochannel.h \
+ /home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/./pkgs/libs/glib/src/glib/gmain.h \
+ /home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/./pkgs/libs/glib/src/glib/gslist.h \
+ /home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/./pkgs/libs/glib/src/glib/gstring.h \
+ /home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/./pkgs/libs/glib/src/glib/gunicode.h \
+ /home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/./pkgs/libs/glib/src/glib/gutils.h \
+ /usr/lib/gcc/x86_64-linux-gnu/9/include/stdarg.h \
+ /home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/./pkgs/libs/glib/src/glib/gkeyfile.h \
+ /home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/./pkgs/libs/glib/src/glib/gmappedfile.h \
+ /home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/./pkgs/libs/glib/src/glib/gmarkup.h \
+ /home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/./pkgs/libs/glib/src/glib/gmessages.h \
+ /home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/./pkgs/libs/glib/src/glib/gnode.h \
+ /home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/./pkgs/libs/glib/src/glib/goption.h \
+ /home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/./pkgs/libs/glib/src/glib/gpattern.h \
+ /home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/./pkgs/libs/glib/src/glib/gprimes.h \
+ /home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/./pkgs/libs/glib/src/glib/gqsort.h \
+ /home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/./pkgs/libs/glib/src/glib/gqueue.h \
+ /home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/./pkgs/libs/glib/src/glib/grand.h \
+ /home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/./pkgs/libs/glib/src/glib/grel.h \
+ /home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/./pkgs/libs/glib/src/glib/gscanner.h \
+ /home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/./pkgs/libs/glib/src/glib/gshell.h \
+ /home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/./pkgs/libs/glib/src/glib/gspawn.h \
+ /home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/./pkgs/libs/glib/src/glib/gstrfuncs.h \
+ /home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/./pkgs/libs/glib/src/glib/gthreadpool.h \
+ /home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/./pkgs/libs/glib/src/glib/gtimer.h \
+ /home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/./pkgs/libs/glib/src/glib/gtree.h \
+ /home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/./pkgs/libs/glib/src/gobject/genums.h \
+ /home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/./pkgs/libs/glib/src/gobject/gobject.h \
+ /home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/./pkgs/libs/glib/src/gobject/gvalue.h \
+ /home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/./pkgs/libs/glib/src/gobject/gparam.h \
+ /home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/./pkgs/libs/glib/src/gobject/gclosure.h \
+ /home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/./pkgs/libs/glib/src/gobject/gsignal.h \
+ ../../gobject/gmarshal.h \
+ /home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/./pkgs/libs/glib/src/gobject/gparamspecs.h \
+ /home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/./pkgs/libs/glib/src/gobject/gsourceclosure.h \
+ /home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/./pkgs/libs/glib/src/gobject/gtypemodule.h \
+ /home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/./pkgs/libs/glib/src/gobject/gtypeplugin.h \
+ /home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/./pkgs/libs/glib/src/gobject/gvaluearray.h \
+ /home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/./pkgs/libs/glib/src/gobject/gvaluetypes.h \
+ /usr/include/unistd.h /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
+ /usr/include/x86_64-linux-gnu/bits/environments.h \
+ /usr/include/x86_64-linux-gnu/bits/confname.h \
+ /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
+ /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
+ /usr/include/x86_64-linux-gnu/bits/unistd.h \
+ /usr/include/x86_64-linux-gnu/bits/unistd_ext.h
+
+/usr/include/stdc-predef.h:
+
+/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/./pkgs/libs/glib/src/glib/glib-object.h:
+
+/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/./pkgs/libs/glib/src/gobject/gboxed.h:
+
+/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/./pkgs/libs/glib/src/gobject/gtype.h:
+
+/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/./pkgs/libs/glib/src/glib/glib.h:
+
+/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/./pkgs/libs/glib/src/glib/galloca.h:
+
+/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/./pkgs/libs/glib/src/glib/gtypes.h:
+
+../../glibconfig.h:
+
+/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/./pkgs/libs/glib/src/glib/gmacros.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/9/include/stddef.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/9/include/limits.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/9/include/syslimits.h:
+
+/usr/include/limits.h:
+
+/usr/include/x86_64-linux-gnu/bits/libc-header-start.h:
+
+/usr/include/features.h:
+
+/usr/include/x86_64-linux-gnu/sys/cdefs.h:
+
+/usr/include/x86_64-linux-gnu/bits/wordsize.h:
+
+/usr/include/x86_64-linux-gnu/bits/long-double.h:
+
+/usr/include/x86_64-linux-gnu/gnu/stubs.h:
+
+/usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
+
+/usr/include/x86_64-linux-gnu/bits/posix1_lim.h:
+
+/usr/include/x86_64-linux-gnu/bits/local_lim.h:
+
+/usr/include/linux/limits.h:
+
+/usr/include/x86_64-linux-gnu/bits/posix2_lim.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/9/include/float.h:
+
+/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/./pkgs/libs/glib/src/glib/garray.h:
+
+/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/./pkgs/libs/glib/src/glib/gasyncqueue.h:
+
+/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/./pkgs/libs/glib/src/glib/gthread.h:
+
+/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/./pkgs/libs/glib/src/glib/gerror.h:
+
+/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/./pkgs/libs/glib/src/glib/gquark.h:
+
+/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/./pkgs/libs/glib/src/glib/gatomic.h:
+
+/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/./pkgs/libs/glib/src/glib/gbacktrace.h:
+
+/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/./pkgs/libs/glib/src/glib/gbase64.h:
+
+/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/./pkgs/libs/glib/src/glib/gbookmarkfile.h:
+
+/usr/include/time.h:
+
+/usr/include/x86_64-linux-gnu/bits/time.h:
+
+/usr/include/x86_64-linux-gnu/bits/types.h:
+
+/usr/include/x86_64-linux-gnu/bits/timesize.h:
+
+/usr/include/x86_64-linux-gnu/bits/typesizes.h:
+
+/usr/include/x86_64-linux-gnu/bits/time64.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/clock_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/time_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_tm.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h:
+
+/usr/include/x86_64-linux-gnu/bits/endian.h:
+
+/usr/include/x86_64-linux-gnu/bits/endianness.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/clockid_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/timer_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/locale_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/__locale_t.h:
+
+/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/./pkgs/libs/glib/src/glib/gcache.h:
+
+/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/./pkgs/libs/glib/src/glib/glist.h:
+
+/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/./pkgs/libs/glib/src/glib/gmem.h:
+
+/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/./pkgs/libs/glib/src/glib/gslice.h:
+
+/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/./pkgs/libs/glib/src/glib/gcompletion.h:
+
+/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/./pkgs/libs/glib/src/glib/gconvert.h:
+
+/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/./pkgs/libs/glib/src/glib/gdataset.h:
+
+/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/./pkgs/libs/glib/src/glib/gdate.h:
+
+/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/./pkgs/libs/glib/src/glib/gdir.h:
+
+/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/./pkgs/libs/glib/src/glib/gfileutils.h:
+
+/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/./pkgs/libs/glib/src/glib/ghash.h:
+
+/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/./pkgs/libs/glib/src/glib/ghook.h:
+
+/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/./pkgs/libs/glib/src/glib/giochannel.h:
+
+/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/./pkgs/libs/glib/src/glib/gmain.h:
+
+/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/./pkgs/libs/glib/src/glib/gslist.h:
+
+/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/./pkgs/libs/glib/src/glib/gstring.h:
+
+/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/./pkgs/libs/glib/src/glib/gunicode.h:
+
+/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/./pkgs/libs/glib/src/glib/gutils.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/9/include/stdarg.h:
+
+/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/./pkgs/libs/glib/src/glib/gkeyfile.h:
+
+/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/./pkgs/libs/glib/src/glib/gmappedfile.h:
+
+/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/./pkgs/libs/glib/src/glib/gmarkup.h:
+
+/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/./pkgs/libs/glib/src/glib/gmessages.h:
+
+/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/./pkgs/libs/glib/src/glib/gnode.h:
+
+/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/./pkgs/libs/glib/src/glib/goption.h:
+
+/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/./pkgs/libs/glib/src/glib/gpattern.h:
+
+/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/./pkgs/libs/glib/src/glib/gprimes.h:
+
+/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/./pkgs/libs/glib/src/glib/gqsort.h:
+
+/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/./pkgs/libs/glib/src/glib/gqueue.h:
+
+/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/./pkgs/libs/glib/src/glib/grand.h:
+
+/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/./pkgs/libs/glib/src/glib/grel.h:
+
+/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/./pkgs/libs/glib/src/glib/gscanner.h:
+
+/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/./pkgs/libs/glib/src/glib/gshell.h:
+
+/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/./pkgs/libs/glib/src/glib/gspawn.h:
+
+/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/./pkgs/libs/glib/src/glib/gstrfuncs.h:
+
+/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/./pkgs/libs/glib/src/glib/gthreadpool.h:
+
+/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/./pkgs/libs/glib/src/glib/gtimer.h:
+
+/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/./pkgs/libs/glib/src/glib/gtree.h:
+
+/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/./pkgs/libs/glib/src/gobject/genums.h:
+
+/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/./pkgs/libs/glib/src/gobject/gobject.h:
+
+/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/./pkgs/libs/glib/src/gobject/gvalue.h:
+
+/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/./pkgs/libs/glib/src/gobject/gparam.h:
+
+/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/./pkgs/libs/glib/src/gobject/gclosure.h:
+
+/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/./pkgs/libs/glib/src/gobject/gsignal.h:
+
+../../gobject/gmarshal.h:
+
+/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/./pkgs/libs/glib/src/gobject/gparamspecs.h:
+
+/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/./pkgs/libs/glib/src/gobject/gsourceclosure.h:
+
+/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/./pkgs/libs/glib/src/gobject/gtypemodule.h:
+
+/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/./pkgs/libs/glib/src/gobject/gtypeplugin.h:
+
+/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/./pkgs/libs/glib/src/gobject/gvaluearray.h:
+
+/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/./pkgs/libs/glib/src/gobject/gvaluetypes.h:
+
+/usr/include/unistd.h:
+
+/usr/include/x86_64-linux-gnu/bits/posix_opt.h:
+
+/usr/include/x86_64-linux-gnu/bits/environments.h:
+
+/usr/include/x86_64-linux-gnu/bits/confname.h:
+
+/usr/include/x86_64-linux-gnu/bits/getopt_posix.h:
+
+/usr/include/x86_64-linux-gnu/bits/getopt_core.h:
+
+/usr/include/x86_64-linux-gnu/bits/unistd.h:
+
+/usr/include/x86_64-linux-gnu/bits/unistd_ext.h:

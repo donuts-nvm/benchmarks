@@ -1,0 +1,14 @@
+	/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/./pkgs/libs/glib/src/glib/gbookmarkfile.c \
+	/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/./pkgs/libs/glib/src/glib/gconvert.c \
+	/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/./pkgs/libs/glib/src/glib/gdir.c \
+	/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/./pkgs/libs/glib/src/glib/gfileutils.c \
+	/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/./pkgs/libs/glib/src/glib/giochannel.c \
+	/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/./pkgs/libs/glib/src/glib/giowin32.c \
+	/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/./pkgs/libs/glib/src/glib/gmappedfile.c \
+	/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/./pkgs/libs/glib/src/glib/gmarkup.c \
+	/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/./pkgs/libs/glib/src/glib/gshell.c \
+	/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/./pkgs/libs/glib/src/glib/gspawn-win32.c \
+	/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/./pkgs/libs/glib/src/glib/gspawn.c \
+	/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/./pkgs/libs/glib/src/glib/gutf8.c \
+	/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/./pkgs/libs/glib/src/glib/goption.c \
+	/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/./pkgs/libs/glib/src/glib/gkeyfile.c

@@ -1,0 +1,57 @@
+[PARSEC] [========== PARSEC 2.1 BUILD LOGFILE ==========]
+
+[PARSEC] Build amd64-linux.gcc-sniper started on Tue May 3 08:49:04 UTC 2022.
+[PARSEC] Packages to build:  blackscholes bodytrack facesim ferret freqmine raytrace swaptions fluidanimate vips x264 canneal dedup streamcluster
+
+[PARSEC] [========== Building package blackscholes ==========]
+[PARSEC] [---------- Analyzing package blackscholes ----------]
+[PARSEC] Package blackscholes already exists, proceeding.
+
+[PARSEC] [========== Building package bodytrack ==========]
+[PARSEC] [---------- Analyzing package bodytrack ----------]
+[PARSEC] Package bodytrack already exists, proceeding.
+
+[PARSEC] [========== Building package facesim ==========]
+[PARSEC] [---------- Analyzing package facesim ----------]
+[PARSEC] Package facesim already exists, proceeding.
+
+[PARSEC] [========== Building package ferret ==========]
+[PARSEC] [---------- Analyzing package ferret ----------]
+[PARSEC] Package ferret already exists, proceeding.
+
+[PARSEC] [========== Building package freqmine ==========]
+[PARSEC] [---------- Analyzing package freqmine ----------]
+[PARSEC] Package freqmine already exists, proceeding.
+
+[PARSEC] [========== Building package raytrace ==========]
+[PARSEC] [---------- Analyzing package raytrace ----------]
+[PARSEC] Package raytrace already exists, proceeding.
+
+[PARSEC] [========== Building package swaptions ==========]
+[PARSEC] [---------- Analyzing package swaptions ----------]
+[PARSEC] Package swaptions already exists, proceeding.
+
+[PARSEC] [========== Building package fluidanimate ==========]
+[PARSEC] [---------- Analyzing package fluidanimate ----------]
+[PARSEC] Package fluidanimate already exists, proceeding.
+
+[PARSEC] [========== Building package vips ==========]
+[PARSEC] [---------- Analyzing package vips ----------]
+[PARSEC] Package vips already exists, proceeding.
+
+[PARSEC] [========== Building package x264 ==========]
+[PARSEC] [---------- Analyzing package x264 ----------]
+[PARSEC] Package x264 already exists, proceeding.
+
+[PARSEC] [========== Building package canneal ==========]
+[PARSEC] [---------- Analyzing package canneal ----------]
+[PARSEC] Package canneal already exists, proceeding.
+
+[PARSEC] [========== Building package dedup ==========]
+[PARSEC] [---------- Analyzing package dedup ----------]
+[PARSEC] Package dedup already exists, proceeding.
+
+[PARSEC] [========== Building package streamcluster ==========]
+[PARSEC] [---------- Analyzing package streamcluster ----------]
+[PARSEC] Package streamcluster already exists, proceeding.
+[PARSEC] Done.
