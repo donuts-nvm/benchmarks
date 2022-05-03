@@ -12,8 +12,8 @@ all: dependencies
 	make -C tools/hooks
 	make -C splash2
 	make -C parsec
-#	make -C npb
-#	make -C local
+	make -C npb
+	make -C local
 #	-make -C cpu2006
 
 cpu2006_pinballs:
@@ -23,8 +23,8 @@ clean:
 	make -C tools/hooks clean
 	make -C splash2 clean
 	make -C parsec clean
-#	make -C npb clean
-#	make -C local clean
+	make -C npb clean
+	make -C local clean
 #	-make -C cpu2006 clean
 
 cpu2006_pinballs_clean:
