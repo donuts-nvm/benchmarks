@@ -3,3 +3,5 @@
 # gcc-sniper.bldconf - configuration file for PARSEC
 
 source ${PARSECDIR}/pkgs/apps/bodytrack/parsec/gcc-hooks.bldconf
+
+CXXFLAGS="-std=gnu++98 ${CXXFLAGS} ${HOOKS_CXXFLAGS}"
