@@ -1,0 +1,65 @@
+[PARSEC] [========== PARSEC 2.1 BUILD LOGFILE ==========]
+
+[PARSEC] Build amd64-linux.gcc-sniper started on Tue May 3 07:53:33 UTC 2022.
+[PARSEC] Packages to build:  blackscholes bodytrack facesim ferret freqmine raytrace swaptions fluidanimate vips x264 canneal dedup streamcluster
+
+[PARSEC] [========== Building package blackscholes ==========]
+[PARSEC] [---------- Analyzing package blackscholes ----------]
+[PARSEC] Package blackscholes already exists, proceeding.
+
+[PARSEC] [========== Building package bodytrack ==========]
+[PARSEC] [---------- Analyzing package bodytrack ----------]
+[PARSEC] Package bodytrack already exists, proceeding.
+
+[PARSEC] [========== Building package facesim ==========]
+[PARSEC] [---------- Analyzing package facesim ----------]
+[PARSEC] Package facesim already exists, proceeding.
+
+[PARSEC] [========== Building package ferret ==========]
+[PARSEC] [---------- Analyzing package ferret ----------]
+[PARSEC] ferret depends on: hooks gsl imagick
+[PARSEC] [---------- Analyzing package hooks ----------]
+[PARSEC] Package hooks already exists, proceeding.
+[PARSEC] [---------- Analyzing package gsl ----------]
+[PARSEC] Package gsl already exists, proceeding.
+[PARSEC] [---------- Analyzing package imagick ----------]
+[PARSEC] Package imagick already exists, proceeding.
+[PARSEC] [---------- Building package ferret ----------]
+[PARSEC] Removing old build directory.
+[PARSEC] Copying source code of package ferret.
+[PARSEC] Running 'env version=pthreads CFLAGS=-I/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/libs/gsl/inst/amd64-linux.gcc-sniper/include -I/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/libs/imagick/inst/amd64-linux.gcc-sniper/include -O3 -funroll-loops -fprefetch-loop-arrays -static-libgcc -Wl,--hash-style=both,--as-needed -DPARSEC_VERSION=2.1 -DENABLE_PARSEC_HOOKS -I/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/libs/hooks/inst/amd64-linux.gcc-sniper/include -I/home/kleber.kruger/sniper-benchmarks/tools/hooks -I/home/kleber.kruger/snipersim/sniper/include -DENABLE_PARMACS LDFLAGS=-L/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/libs/gsl/inst/amd64-linux.gcc-sniper/lib -L/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/libs/imagick/inst/amd64-linux.gcc-sniper/lib -L/usr/lib64 -L/usr/lib -L/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/libs/hooks/inst/amd64-linux.gcc-sniper/lib -uparmacs_roi_end -uparmacs_roi_start -L/home/kleber.kruger/sniper-benchmarks/tools/hooks -lhooks_base -lrt -pthread /usr/bin/make':
+make[2]: Entering directory '/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/apps/ferret/obj/amd64-linux.gcc-sniper'
+mkdir -p /home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/apps/ferret/obj/amd64-linux.gcc-sniper/parsec/bin
+mkdir -p /home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/apps/ferret/obj/amd64-linux.gcc-sniper/parsec/lib
+mkdir -p /home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/apps/ferret/obj/amd64-linux.gcc-sniper/parsec/obj
+   CC '/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/apps/ferret/obj/amd64-linux.gcc-sniper/src/tpool.c' ==> '/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/apps/ferret/obj/amd64-linux.gcc-sniper/parsec/obj/tpool.o'
+   CC '/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/apps/ferret/obj/amd64-linux.gcc-sniper/src/heap.c' ==> '/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/apps/ferret/obj/amd64-linux.gcc-sniper/parsec/obj/heap.o'
+   CC '/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/apps/ferret/obj/amd64-linux.gcc-sniper/src/stat.c' ==> '/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/apps/ferret/obj/amd64-linux.gcc-sniper/parsec/obj/stat.o'
+   CC '/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/apps/ferret/obj/amd64-linux.gcc-sniper/src/queue.c' ==> '/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/apps/ferret/obj/amd64-linux.gcc-sniper/parsec/obj/queue.o'
+   CC '/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/apps/ferret/obj/amd64-linux.gcc-sniper/src/cass_reg.c' ==> '/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/apps/ferret/obj/amd64-linux.gcc-sniper/parsec/obj/cass_reg.o'
+   CC '/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/apps/ferret/obj/amd64-linux.gcc-sniper/src/assign.c' ==> '/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/apps/ferret/obj/amd64-linux.gcc-sniper/parsec/obj/assign.o'
+   CC '/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/apps/ferret/obj/amd64-linux.gcc-sniper/src/error.c' ==> '/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/apps/ferret/obj/amd64-linux.gcc-sniper/parsec/obj/error.o'
+   CC '/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/apps/ferret/obj/amd64-linux.gcc-sniper/src/arena.c' ==> '/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/apps/ferret/obj/amd64-linux.gcc-sniper/parsec/obj/arena.o'
+   CC '/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/apps/ferret/obj/amd64-linux.gcc-sniper/src/hash_table.c' ==> '/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/apps/ferret/obj/amd64-linux.gcc-sniper/parsec/obj/hash_table.o'
+   CC '/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/apps/ferret/obj/amd64-linux.gcc-sniper/src/env.c' ==> '/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/apps/ferret/obj/amd64-linux.gcc-sniper/parsec/obj/env.o'
+   CC '/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/apps/ferret/obj/amd64-linux.gcc-sniper/src/dist.c' ==> '/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/apps/ferret/obj/amd64-linux.gcc-sniper/parsec/obj/dist.o'
+   CC '/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/apps/ferret/obj/amd64-linux.gcc-sniper/src/tp.c' ==> '/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/apps/ferret/obj/amd64-linux.gcc-sniper/parsec/obj/tp.o'
+   CC '/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/apps/ferret/obj/amd64-linux.gcc-sniper/src/topk.c' ==> '/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/apps/ferret/obj/amd64-linux.gcc-sniper/parsec/obj/topk.o'
+   CC '/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/apps/ferret/obj/amd64-linux.gcc-sniper/src/table.c' ==> '/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/apps/ferret/obj/amd64-linux.gcc-sniper/parsec/obj/table.o'
+   CC '/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/apps/ferret/obj/amd64-linux.gcc-sniper/src/cass.c' ==> '/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/apps/ferret/obj/amd64-linux.gcc-sniper/parsec/obj/cass.o'
+   CC '/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/apps/ferret/obj/amd64-linux.gcc-sniper/src/raw.c' ==> '/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/apps/ferret/obj/amd64-linux.gcc-sniper/parsec/obj/raw.o'
+   CC '/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/apps/ferret/obj/amd64-linux.gcc-sniper/src/cuckoo_hash.c' ==> '/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/apps/ferret/obj/amd64-linux.gcc-sniper/parsec/obj/cuckoo_hash.o'
+   CC '/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/apps/ferret/obj/amd64-linux.gcc-sniper/src/hash.c' ==> '/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/apps/ferret/obj/amd64-linux.gcc-sniper/parsec/obj/hash.o'
+   CC '/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/apps/ferret/obj/amd64-linux.gcc-sniper/src/emd.c' ==> '/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/apps/ferret/obj/amd64-linux.gcc-sniper/parsec/obj/emd.o'
+   CC '/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/apps/ferret/obj/amd64-linux.gcc-sniper/src/util.c' ==> '/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/apps/ferret/obj/amd64-linux.gcc-sniper/parsec/obj/util.o'
+   CC '/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/apps/ferret/obj/amd64-linux.gcc-sniper/src/cass_dist.c' ==> '/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/apps/ferret/obj/amd64-linux.gcc-sniper/parsec/obj/cass_dist.o'
+   CC '/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/apps/ferret/obj/amd64-linux.gcc-sniper/src/bitmap.c' ==> '/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/apps/ferret/obj/amd64-linux.gcc-sniper/parsec/obj/bitmap.o'
+   CC '/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/apps/ferret/obj/amd64-linux.gcc-sniper/src/import.c' ==> '/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/apps/ferret/obj/amd64-linux.gcc-sniper/parsec/obj/import.o'
+   CC '/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/apps/ferret/obj/amd64-linux.gcc-sniper/src/dataset.c' ==> '/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/apps/ferret/obj/amd64-linux.gcc-sniper/parsec/obj/dataset.o'
+   CC '/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/apps/ferret/obj/amd64-linux.gcc-sniper/src/map.c' ==> '/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/apps/ferret/obj/amd64-linux.gcc-sniper/parsec/obj/map.o'
+   CC '/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/apps/ferret/obj/amd64-linux.gcc-sniper/src/matrix.c' ==> '/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/apps/ferret/obj/amd64-linux.gcc-sniper/parsec/obj/matrix.o'
+   CC '/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/apps/ferret/obj/amd64-linux.gcc-sniper/src/timer.c' ==> '/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/apps/ferret/obj/amd64-linux.gcc-sniper/parsec/obj/timer.o'
+   CC '/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/apps/ferret/obj/amd64-linux.gcc-sniper/src/bench.c' ==> '/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/apps/ferret/obj/amd64-linux.gcc-sniper/parsec/obj/bench.o'
+   CC '/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/apps/ferret/obj/amd64-linux.gcc-sniper/src/lsh/LSH_query.c' ==> '/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/apps/ferret/obj/amd64-linux.gcc-sniper/parsec/obj/LSH_query.o'
+make[2]: Leaving directory '/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/apps/ferret/obj/amd64-linux.gcc-sniper'
+[PARSEC] Error: 'env version=pthreads CFLAGS=-I/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/libs/gsl/inst/amd64-linux.gcc-sniper/include -I/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/libs/imagick/inst/amd64-linux.gcc-sniper/include -O3 -funroll-loops -fprefetch-loop-arrays -static-libgcc -Wl,--hash-style=both,--as-needed -DPARSEC_VERSION=2.1 -DENABLE_PARSEC_HOOKS -I/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/libs/hooks/inst/amd64-linux.gcc-sniper/include -I/home/kleber.kruger/sniper-benchmarks/tools/hooks -I/home/kleber.kruger/snipersim/sniper/include -DENABLE_PARMACS LDFLAGS=-L/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/libs/gsl/inst/amd64-linux.gcc-sniper/lib -L/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/libs/imagick/inst/amd64-linux.gcc-sniper/lib -L/usr/lib64 -L/usr/lib -L/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/libs/hooks/inst/amd64-linux.gcc-sniper/lib -uparmacs_roi_end -uparmacs_roi_start -L/home/kleber.kruger/sniper-benchmarks/tools/hooks -lhooks_base -lrt -pthread /usr/bin/make' failed.

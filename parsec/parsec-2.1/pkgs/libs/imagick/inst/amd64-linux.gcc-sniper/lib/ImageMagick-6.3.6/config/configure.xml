@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuremap [
+  <!ELEMENT configuremap (configure+)>
+  <!ELEMENT configure (#PCDATA)>
+  <!ATTLIST configure name CDATA #REQUIRED>
+  <!ATTLIST configure value CDATA #REQUIRED>
+]>
+<configuremap>
+  <configure name="NAME" value="ImageMagick" />
+  <configure name="LIB_VERSION" value="0x636" />
+  <configure name="LIB_VERSION_NUMBER" value="6,3,6,1" />
+  <configure name="RELEASE_DATE" value="05/03/22" />
+  <configure name="CONFIGURE" value="/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/./pkgs/libs/imagick/src/configure /home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/./pkgs/libs/imagick/inst/amd64-linux.gcc-sniper/share/config.site /home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/./pkgs/libs/imagick/inst/amd64-linux.gcc-sniper/etc/config.site" />
+  <configure name="PREFIX" value="/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/./pkgs/libs/imagick/inst/amd64-linux.gcc-sniper" />
+  <configure name="EXEC-PREFIX" value="/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/./pkgs/libs/imagick/inst/amd64-linux.gcc-sniper" />
+  <configure name="VERSION" value="6.3.6" />
+  <configure name="CC" value="gcc" />
+  <configure name="CFLAGS" value="-O3 -funroll-loops -fprefetch-loop-arrays -static-libgcc -Wl,--hash-style=both,--as-needed -DPARSEC_VERSION=2.1 -DENABLE_PARSEC_HOOKS -I/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/libs/hooks/inst/amd64-linux.gcc-sniper/include -I/home/kleber.kruger/sniper-benchmarks/tools/hooks -I/home/kleber.kruger/snipersim/sniper/include -DENABLE_PARMACS -O2 -Wall -W" />
+  <configure name="CPPFLAGS" value="-I/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/./pkgs/libs/imagick/inst/amd64-linux.gcc-sniper/include" />
+  <configure name="PCFLAGS" value="" />
+  <configure name="DEFS" value="-DHAVE_CONFIG_H" />
+  <configure name="LDFLAGS" value="-L/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/./pkgs/libs/imagick/inst/amd64-linux.gcc-sniper/lib -L/usr/lib64 -L/usr/lib -L/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/libs/hooks/inst/amd64-linux.gcc-sniper/lib -uparmacs_roi_end -uparmacs_roi_start -L/home/kleber.kruger/sniper-benchmarks/tools/hooks -lhooks_base -lrt -pthread" />
+  <configure name="LIBS" value="-lMagick -lm -lpthread" />
+  <configure name="CXX" value="g++" />
+  <configure name="CXXFLAGS" value="-std=gnu++98 -std=gnu++98 -O3 -funroll-loops -fprefetch-loop-arrays -fpermissive -fno-exceptions -static-libgcc -Wl,--hash-style=both,--as-needed -DPARSEC_VERSION=2.1 -DENABLE_PARSEC_HOOKS -I/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/libs/hooks/inst/amd64-linux.gcc-sniper/include -I/home/kleber.kruger/sniper-benchmarks/tools/hooks -I/home/kleber.kruger/snipersim/sniper/include -I/home/kleber.kruger/sniper-benchmarks/tools/hooks -I/home/kleber.kruger/snipersim/sniper/include -I/home/kleber.kruger/sniper-benchmarks/tools/hooks -I/home/kleber.kruger/snipersim/sniper/include -Wall -W" />
+  <configure name="DISTCHECK_CONFIG_FLAGS" value="'CC=gcc' 'CFLAGS=-O3 -funroll-loops -fprefetch-loop-arrays -static-libgcc -Wl,--hash-style=both,--as-needed -DPARSEC_VERSION=2.1 -DENABLE_PARSEC_HOOKS -I/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/libs/hooks/inst/amd64-linux.gcc-sniper/include -I/home/kleber.kruger/sniper-benchmarks/tools/hooks -I/home/kleber.kruger/snipersim/sniper/include -DENABLE_PARMACS -O2' 'CPPFLAGS=' 'CXX=g++' 'CXXCPP=' 'LDFLAGS=-L/usr/lib64 -L/usr/lib -L/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/libs/hooks/inst/amd64-linux.gcc-sniper/lib -uparmacs_roi_end -uparmacs_roi_start -L/home/kleber.kruger/sniper-benchmarks/tools/hooks -lhooks_base -lrt -pthread' 'LIBS= -lhooks' --disable-deprecate --with-quantum-depth=16 --with-bzlib=no --with-dps=no --with-djvu=no --with-fpx=no --with-gslib=no --with-jbig=no --with-jp2=no --with-tiff=no --with-wmf=no --with-fontpath= --with-zlib=no --with-fontconfig=no --with-freetype=no --with-lcms=no --with-png=no --with-gvc=no --with-openexr=no --with-rsvg=no --with-xml=no" />
+  <configure name="HOST" value="x86_64-unknown-linux-gnu" />
+  <configure name="DELEGATES" value="" />
+  <configure name="COPYRIGHT" value="Copyright (C) 1999-2007 ImageMagick Studio LLC" />
+  <configure name="WEBSITE" value="http://www.imagemagick.org" />
+  <configure name="QuantumDepth" value="16" />
+</configuremap>
