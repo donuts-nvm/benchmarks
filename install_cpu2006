@@ -20,13 +20,30 @@ then
 	exit 1
 fi
 
+SPEC_VERSION=$(head -n 1 ${SPEC_DVD}/version.txt)
+if [ $SPEC_VERSION != "1.0.1" ] && [ $SPEC_VERSION != "1.2" ]
+then
+	echo Invalid version to SPEC CPU2006 - version $SPEC_VERSION
+	exit 1
+fi
+
+echo Installing SPEC CPU2006 v$SPEC_VERSION
+
 echo Installing SPEC CPU2006 sources...
 cp -r ${SPEC_DVD}/benchspec/CPU2006/* cpu2006/CPU2006/
 
 echo Installing SPEC CPU2006 binary utilities...
 mkdir -p cpu2006/bin
 cp -r ${SPEC_DVD}/bin/* cpu2006/bin/
-tar xjf ${SPEC_DVD}/tools/bin/linux-suse101-AMD64/cpu2006tools-linux-suse101-AMD64.tar.bz2 -C cpu2006
+
+if [ $SPEC_VERSION == "1.0.1" ]
+then
+	tar xjf ${SPEC_DVD}/tools/bin/linux-suse101-AMD64/cpu2006tools-linux-suse101-AMD64.tar.bz2 -C cpu2006
+else
+	tar -xvf ${SPEC_DVD}/tools/bin/linux-suse10-amd64/tools-linux-suse10-amd64.tar.xz -C cpu2006
+fi
 
 # Fix permissions when sources are copied from a read-only DVD image
 find cpu2006/CPU2006 -type d -exec chmod +w {} \;
+
+echo SPEC CPU2006 v$SPEC_VERSION successfully installed.
