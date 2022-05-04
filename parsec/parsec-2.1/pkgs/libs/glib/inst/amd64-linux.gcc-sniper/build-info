@@ -1,0 +1,40 @@
+PARSEC Compile Information
+==========================
+Package 'glib'
+Built on Wed May 4 06:08:19 UTC 2022
+
+Configure arguments: --disable-shared --enable-threads --with-threads=posix --prefix=/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/./pkgs/libs/glib/inst/amd64-linux.gcc-sniper
+
+Environment modifications: 
+
+CC: gcc
+Version: gcc (Ubuntu 9.4.0-1ubuntu1~20.04) 9.4.0
+Copyright (C) 2019 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+CFLAGS: -O3 -funroll-loops -fprefetch-loop-arrays -static-libgcc -Wl,--hash-style=both,--as-needed -DPARSEC_VERSION=2.1 -DENABLE_PARSEC_HOOKS -I/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/libs/hooks/inst/amd64-linux.gcc-sniper/include -I/home/kleber.kruger/sniper-benchmarks/tools/hooks -I/home/kleber.kruger/snipersim/sniper/include -DENABLE_PARMACS
+
+CXX: g++ -std=gnu++98
+Version: g++ (Ubuntu 9.4.0-1ubuntu1~20.04) 9.4.0
+Copyright (C) 2019 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+CXXFLAGS: -O3 -funroll-loops -fprefetch-loop-arrays -fpermissive -fno-exceptions -static-libgcc -Wl,--hash-style=both,--as-needed -DPARSEC_VERSION=2.1 -DENABLE_PARSEC_HOOKS -I/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/libs/hooks/inst/amd64-linux.gcc-sniper/include -I/home/kleber.kruger/sniper-benchmarks/tools/hooks -I/home/kleber.kruger/snipersim/sniper/include
+
+CCAS: 
+Version: 
+CCASFLAGS: 
+
+LD: g++
+Version: GNU ld (GNU Binutils for Ubuntu) 2.34
+Copyright (C) 2020 Free Software Foundation, Inc.
+This program is free software; you may redistribute it under the terms of
+the GNU General Public License version 3 or (at your option) a later version.
+This program has absolutely no warranty.
+LDFLAGS: -L/usr/lib64 -L/usr/lib -L/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/libs/hooks/inst/amd64-linux.gcc-sniper/lib -uparmacs_roi_end -uparmacs_roi_start -L/home/kleber.kruger/sniper-benchmarks/tools/hooks -lhooks_base -lrt -pthread
+
+JAVAC: /usr/bin/javac
+Version: 
+JFLAGS: 
+
+[EOF]

@@ -1944,10 +1944,10 @@ CONFIGURE_ARGS = /home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/./pkgs/
 CONFIG_STATUS_DEPENDENCIES = $(top_srcdir)/ChangeLog $(top_srcdir)/version.sh
 CPP = /usr/bin/cpp
 CPPFLAGS = 
-CXX = g++
-CXXCPP = g++ -E
+CXX = g++ -std=gnu++98
+CXXCPP = g++ -std=gnu++98 -E
 CXXDEPMODE = depmode=gcc3
-CXXFLAGS = -std=gnu++98 -std=gnu++98 -O3 -funroll-loops -fprefetch-loop-arrays -fpermissive -fno-exceptions -static-libgcc -Wl,--hash-style=both,--as-needed -DPARSEC_VERSION=2.1 -DENABLE_PARSEC_HOOKS -I/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/libs/hooks/inst/amd64-linux.gcc-sniper/include -I/home/kleber.kruger/sniper-benchmarks/tools/hooks -I/home/kleber.kruger/snipersim/sniper/include -I/home/kleber.kruger/sniper-benchmarks/tools/hooks -I/home/kleber.kruger/snipersim/sniper/include -I/home/kleber.kruger/sniper-benchmarks/tools/hooks -I/home/kleber.kruger/snipersim/sniper/include -Wall -W
+CXXFLAGS = -O3 -funroll-loops -fprefetch-loop-arrays -fpermissive -fno-exceptions -static-libgcc -Wl,--hash-style=both,--as-needed -DPARSEC_VERSION=2.1 -DENABLE_PARSEC_HOOKS -I/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/libs/hooks/inst/amd64-linux.gcc-sniper/include -I/home/kleber.kruger/sniper-benchmarks/tools/hooks -I/home/kleber.kruger/snipersim/sniper/include -Wall -W
 CYGPATH_W = echo
 CatDelegate = cat
 ConvertDelegate = convert
@@ -1956,7 +1956,7 @@ DEFS = -DHAVE_CONFIG_H
 DELEGATES = 
 DEPDIR = .deps
 DIRSEP = :
-DISTCHECK_CONFIG_FLAGS = 'CC=gcc' 'CFLAGS=-O3 -funroll-loops -fprefetch-loop-arrays -static-libgcc -Wl,--hash-style=both,--as-needed -DPARSEC_VERSION=2.1 -DENABLE_PARSEC_HOOKS -I/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/libs/hooks/inst/amd64-linux.gcc-sniper/include -I/home/kleber.kruger/sniper-benchmarks/tools/hooks -I/home/kleber.kruger/snipersim/sniper/include -DENABLE_PARMACS -O2' 'CPPFLAGS=' 'CXX=g++' 'CXXCPP=' 'LDFLAGS=-L/usr/lib64 -L/usr/lib -L/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/libs/hooks/inst/amd64-linux.gcc-sniper/lib -uparmacs_roi_end -uparmacs_roi_start -L/home/kleber.kruger/sniper-benchmarks/tools/hooks -lhooks_base -lrt -pthread' 'LIBS= -lhooks' --disable-deprecate --with-quantum-depth=16 --with-bzlib=no --with-dps=no --with-djvu=no --with-fpx=no --with-gslib=no --with-jbig=no --with-jp2=no --with-tiff=no --with-wmf=no --with-fontpath= --with-zlib=no --with-fontconfig=no --with-freetype=no --with-lcms=no --with-png=no --with-gvc=no --with-openexr=no --with-rsvg=no --with-xml=no
+DISTCHECK_CONFIG_FLAGS = 'CC=gcc' 'CFLAGS=-O3 -funroll-loops -fprefetch-loop-arrays -static-libgcc -Wl,--hash-style=both,--as-needed -DPARSEC_VERSION=2.1 -DENABLE_PARSEC_HOOKS -I/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/libs/hooks/inst/amd64-linux.gcc-sniper/include -I/home/kleber.kruger/sniper-benchmarks/tools/hooks -I/home/kleber.kruger/snipersim/sniper/include -DENABLE_PARMACS -O2' 'CPPFLAGS=' 'CXX=g++ -std=gnu++98' 'CXXCPP=' 'LDFLAGS=-L/usr/lib64 -L/usr/lib -L/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/libs/hooks/inst/amd64-linux.gcc-sniper/lib -uparmacs_roi_end -uparmacs_roi_start -L/home/kleber.kruger/sniper-benchmarks/tools/hooks -lhooks_base -lrt -pthread' 'LIBS= -lhooks' --disable-deprecate --with-quantum-depth=16 --with-bzlib=no --with-dps=no --with-djvu=no --with-fpx=no --with-gslib=no --with-jbig=no --with-jp2=no --with-tiff=no --with-wmf=no --with-fontpath= --with-zlib=no --with-fontconfig=no --with-freetype=no --with-lcms=no --with-png=no --with-gvc=no --with-openexr=no --with-rsvg=no --with-xml=no
 DJVU_LIBS = 
 DLLDFLAGS = 
 DLLTOOL = dlltool
@@ -2044,7 +2044,7 @@ MAGICK_CODER_MODULE_PATH = /home/kleber.kruger/sniper-benchmarks/parsec/parsec-2
 MAGICK_CONFIGURE_BUILD_PATH = /home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/libs/imagick/obj/amd64-linux.gcc-sniper/config
 MAGICK_CONFIGURE_SRC_PATH = /home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/libs/imagick/src/config
 MAGICK_CPPFLAGS = -I/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/./pkgs/libs/imagick/inst/amd64-linux.gcc-sniper/include
-MAGICK_CXXFLAGS = -std=gnu++98 -std=gnu++98 -O3 -funroll-loops -fprefetch-loop-arrays -fpermissive -fno-exceptions -static-libgcc -Wl,--hash-style=both,--as-needed -DPARSEC_VERSION=2.1 -DENABLE_PARSEC_HOOKS -I/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/libs/hooks/inst/amd64-linux.gcc-sniper/include -I/home/kleber.kruger/sniper-benchmarks/tools/hooks -I/home/kleber.kruger/snipersim/sniper/include -I/home/kleber.kruger/sniper-benchmarks/tools/hooks -I/home/kleber.kruger/snipersim/sniper/include -I/home/kleber.kruger/sniper-benchmarks/tools/hooks -I/home/kleber.kruger/snipersim/sniper/include -Wall -W
+MAGICK_CXXFLAGS = -O3 -funroll-loops -fprefetch-loop-arrays -fpermissive -fno-exceptions -static-libgcc -Wl,--hash-style=both,--as-needed -DPARSEC_VERSION=2.1 -DENABLE_PARSEC_HOOKS -I/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/libs/hooks/inst/amd64-linux.gcc-sniper/include -I/home/kleber.kruger/sniper-benchmarks/tools/hooks -I/home/kleber.kruger/snipersim/sniper/include -Wall -W
 MAGICK_DEP_LIBS = -lm -lpthread
 MAGICK_FILTER_MODULE_PATH = /home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/libs/imagick/obj/amd64-linux.gcc-sniper/filters
 MAGICK_HDRI = 
@@ -2082,7 +2082,7 @@ PACKAGE_BUGREPORT = http://www.imagemagick.org
 PACKAGE_LIB_VERSION = 0x636
 PACKAGE_LIB_VERSION_NUMBER = 6,3,6,1
 PACKAGE_NAME = ImageMagick
-PACKAGE_RELEASE_DATE = 05/03/22
+PACKAGE_RELEASE_DATE = 05/04/22
 PACKAGE_STRING = ImageMagick 6.3.6
 PACKAGE_TARNAME = ImageMagick
 PACKAGE_VERSION = 6.3.6
@@ -2107,7 +2107,7 @@ PREFIX_DIR = /home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/./pkgs/libs
 PSDelegate = gs
 PTHREAD_CC = gcc
 PTHREAD_CFLAGS = 
-PTHREAD_CXX = g++
+PTHREAD_CXX = g++ -std=gnu++98
 PTHREAD_LIBS = -lpthread
 PrintDelegate = lpr
 QuantumDepth = 16

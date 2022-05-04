@@ -4,4 +4,4 @@
 
 source ${PARSECDIR}/pkgs/apps/bodytrack/parsec/gcc-hooks.bldconf
 
-CXXFLAGS="-std=gnu++98 ${CXXFLAGS} ${HOOKS_CXXFLAGS}"
+# CXXFLAGS="-std=gnu++98 ${CXXFLAGS} ${HOOKS_CXXFLAGS}"

@@ -1703,8 +1703,8 @@ clean: Source/CMakeFiles/CPackLib.dir/clean
 
 # All Build rule for target.
 Source/CMakeFiles/CTestLib.dir/all: Utilities/cmcurl/CMakeFiles/cmcurl.dir/all
-Source/CMakeFiles/CTestLib.dir/all: Source/CMakeFiles/CMakeLib.dir/all
 Source/CMakeFiles/CTestLib.dir/all: Utilities/cmxmlrpc/CMakeFiles/cmXMLRPC.dir/all
+Source/CMakeFiles/CTestLib.dir/all: Source/CMakeFiles/CMakeLib.dir/all
 	$(MAKE) -f Source/CMakeFiles/CTestLib.dir/build.make Source/CMakeFiles/CTestLib.dir/depend
 	$(MAKE) -f Source/CMakeFiles/CTestLib.dir/build.make Source/CMakeFiles/CTestLib.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/tools/cmake/obj/amd64-linux.gcc-sniper/CMakeFiles  89 90 91 92 93 94 95 96 97

@@ -4,4 +4,5 @@
 
 source ${PARSECDIR}/pkgs/apps/vips/parsec/gcc-hooks.bldconf
 
-CXXFLAGS="-std=gnu++98 ${CXXFLAGS} ${HOOKS_CXXFLAGS}"
+# CXXFLAGS="-std=gnu++98 ${CXXFLAGS} ${HOOKS_CXXFLAGS}"
+CXX="${HOOKS_CXX} -std=gnu++98"

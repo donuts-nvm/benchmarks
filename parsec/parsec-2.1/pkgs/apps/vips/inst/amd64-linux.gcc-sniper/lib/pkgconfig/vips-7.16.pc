@@ -1,0 +1,11 @@
+prefix=/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/./pkgs/apps/vips/inst/amd64-linux.gcc-sniper
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: vips-7.16
+Description: Image processing library
+Version: 7.16.2
+Requires:  glib-2.0 gmodule-2.0 libxml-2.0 gobject-2.0 gthread-2.0
+Libs: -L${libdir} -lvips      -L/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/./pkgs/libs/glib/inst/amd64-linux.gcc-sniper/lib -lgthread-2.0 -pthread -lglib-2.0 -L/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/./pkgs/libs/glib/inst/amd64-linux.gcc-sniper/lib -L/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/./pkgs/libs/libxml2/inst/amd64-linux.gcc-sniper/lib -lgmodule-2.0 -ldl -lxml2 -lgobject-2.0 -lglib-2.0        -lm 
+Cflags: -I${includedir} 

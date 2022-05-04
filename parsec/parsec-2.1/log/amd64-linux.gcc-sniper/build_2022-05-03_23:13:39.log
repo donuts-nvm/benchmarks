@@ -1,0 +1,44 @@
+[PARSEC] [========== PARSEC 2.1 BUILD LOGFILE ==========]
+
+[PARSEC] Build amd64-linux.gcc-sniper started on Tue May 3 23:13:39 UTC 2022.
+[PARSEC] Packages to build:  blackscholes bodytrack facesim ferret freqmine raytrace swaptions fluidanimate vips x264 canneal dedup streamcluster
+
+[PARSEC] [========== Building package blackscholes ==========]
+[PARSEC] [---------- Analyzing package blackscholes ----------]
+[PARSEC] Package blackscholes already exists, proceeding.
+
+[PARSEC] [========== Building package bodytrack ==========]
+[PARSEC] [---------- Analyzing package bodytrack ----------]
+[PARSEC] bodytrack depends on: hooks
+[PARSEC] [---------- Analyzing package hooks ----------]
+[PARSEC] Package hooks already exists, proceeding.
+[PARSEC] [---------- Building package bodytrack ----------]
+[PARSEC] Removing old build directory.
+[PARSEC] Running 'env CXXFLAGS=-O3 -funroll-loops -fprefetch-loop-arrays -fpermissive -fno-exceptions -static-libgcc -Wl,--hash-style=both,--as-needed -DPARSEC_VERSION=2.1 -DENABLE_PARSEC_HOOKS -I/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/libs/hooks/inst/amd64-linux.gcc-sniper/include -I/home/kleber.kruger/sniper-benchmarks/tools/hooks -I/home/kleber.kruger/snipersim/sniper/include -fexceptions /home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/./pkgs/apps/bodytrack/src/configure --enable-threads --disable-openmp --disable-tbb --prefix=/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/./pkgs/apps/bodytrack/inst/amd64-linux.gcc-sniper':
+checking for a BSD-compatible install... /home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/bin/install -c
+checking whether build environment is sane... yes
+checking for gawk... gawk
+checking whether /usr/bin/make sets $(MAKE)... yes
+checking build system type... x86_64-unknown-linux-gnu
+checking host system type... x86_64-unknown-linux-gnu
+checking for style of include used by /usr/bin/make... GNU
+checking for gcc... gcc
+checking for C compiler default output file name... a.out
+checking whether the C compiler works... yes
+checking whether we are cross compiling... no
+checking for suffix of executables... 
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ANSI C... none needed
+checking dependency style of gcc... gcc3
+checking for a sed that does not truncate output... /usr/bin/sed
+checking for egrep... grep -E
+checking for ld used by gcc... g++
+checking if the linker (g++) is GNU ld... no
+checking for g++ option to reload object files... -r
+checking for BSD-compatible nm... /usr/bin/nm -B
+checking whether ln -s works... yes
+checking how to recognise dependent libraries... pass_all
+checking how to run the C preprocessor... /usr/bin/cpp
+checking for ANSI C header files... [PARSEC] Error: 'env CXXFLAGS=-O3 -funroll-loops -fprefetch-loop-arrays -fpermissive -fno-exceptions -static-libgcc -Wl,--hash-style=both,--as-needed -DPARSEC_VERSION=2.1 -DENABLE_PARSEC_HOOKS -I/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/libs/hooks/inst/amd64-linux.gcc-sniper/include -I/home/kleber.kruger/sniper-benchmarks/tools/hooks -I/home/kleber.kruger/snipersim/sniper/include -fexceptions /home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/./pkgs/apps/bodytrack/src/configure --enable-threads --disable-openmp --disable-tbb --prefix=/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/./pkgs/apps/bodytrack/inst/amd64-linux.gcc-sniper' failed.

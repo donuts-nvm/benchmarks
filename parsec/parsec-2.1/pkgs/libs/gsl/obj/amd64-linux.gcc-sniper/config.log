@@ -545,9 +545,9 @@ configure:9837: $? = 0
 configure:9849: result: yes
 configure:9856: checking for _doprnt
 configure:9913: gcc -o conftest -O3 -funroll-loops -fprefetch-loop-arrays -static-libgcc -Wl,--hash-style=both,--as-needed -DPARSEC_VERSION=2.1 -DENABLE_PARSEC_HOOKS -I/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/libs/hooks/inst/amd64-linux.gcc-sniper/include -I/home/kleber.kruger/sniper-benchmarks/tools/hooks -I/home/kleber.kruger/snipersim/sniper/include -DENABLE_PARMACS  -L/usr/lib64 -L/usr/lib -L/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/libs/hooks/inst/amd64-linux.gcc-sniper/lib -uparmacs_roi_end -uparmacs_roi_start -L/home/kleber.kruger/sniper-benchmarks/tools/hooks -lhooks_base -lrt -pthread conftest.c  -lhooks -lm >&5
-/usr/bin/ld: /tmp/ccy9oI3K.o: in function `main':
+/usr/bin/ld: /tmp/cc5ALDi4.o: in function `main':
 conftest.c:(.text.startup+0x7): undefined reference to `_doprnt'
-/usr/bin/ld: /tmp/ccy9oI3K.o:(.data.rel+0x0): undefined reference to `_doprnt'
+/usr/bin/ld: /tmp/cc5ALDi4.o:(.data.rel+0x0): undefined reference to `_doprnt'
 collect2: error: ld returned 1 exit status
 configure:9919: $? = 1
 configure: failed program was:

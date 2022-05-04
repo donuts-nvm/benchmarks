@@ -238,8 +238,8 @@ CONFIG_STATUS_DEPENDENCIES = $(top_srcdir)/ChangeLog
 CONF_SUBDIRS = tests/cdemo tests/demo tests/depdemo tests/f77demo tests/fcdemo 	tests/mdemo tests/mdemo2 tests/pdemo tests/tagdemo
 CPP = /usr/bin/cpp
 CPPFLAGS = 
-CXX = g++
-CXXCPP = g++ -E
+CXX = g++ -std=gnu++98
+CXXCPP = g++ -std=gnu++98 -E
 CXXDEPMODE = depmode=gcc3
 CXXFLAGS = -O3 -funroll-loops -fprefetch-loop-arrays -fpermissive -fno-exceptions -static-libgcc -Wl,--hash-style=both,--as-needed -DPARSEC_VERSION=2.1 -DENABLE_PARSEC_HOOKS -I/home/kleber.kruger/sniper-benchmarks/parsec/parsec-2.1/pkgs/libs/hooks/inst/amd64-linux.gcc-sniper/include -I/home/kleber.kruger/sniper-benchmarks/tools/hooks -I/home/kleber.kruger/snipersim/sniper/include
 CYGPATH_W = echo
